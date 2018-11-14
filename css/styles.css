@@ -24,7 +24,6 @@
   
   blue {
    background-color: #D4D7FE;
-   padding: 6px;
   }
   
   ::selection {
@@ -39,17 +38,6 @@
     body {
       background-color: #FFFFFF;
       margin: 0;
-    }
-  
-    .logo {
-      margin: 10em;
-      height: 5em;
-      width: 5em;
-    }
-  
-    .logo img {
-      height: 5em;
-      width: 5em;
     }
 
     .portfolio__container {
@@ -84,7 +72,7 @@
       font-weight: 1;
       line-height: 1.5em;
       margin-bottom: 1em;
-      margin-top: 1.5em;
+      margin-top: 1.8em;
       text-align: left;
       margin: auto;
     }
