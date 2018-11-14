@@ -147,6 +147,7 @@
       letter-spacing: 1px; }
     
     .project__image {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       width: 90%;
       min-width: 260px;
       min-height: 180px;
