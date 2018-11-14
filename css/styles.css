@@ -129,7 +129,7 @@
     .project {
       display: flex;
       height: 327px;
-      width: 654px;
+      width: 747px;
       margin: 50px auto;
       border-radius: 7px 7px 7px 7px;
       /* VIA CSS MATIC https://goo.gl/cIbnS */
@@ -146,7 +146,7 @@
       display: flex;
       float: left;
       height: 327px;
-      width: 327px;
+      width: 420px;
     }
 
     .project-img img {
@@ -186,6 +186,7 @@
     .project-text h2 {
       margin: 0 0 10px 38px;
       font-size: 13px;
+      line-height: 2em;
       font-family: 'Raleway', sans-serif;
       font-weight: 400;
       text-transform: uppercase;
