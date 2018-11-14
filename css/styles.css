@@ -24,6 +24,8 @@
   
   blue {
    background-color: #D4D7FE;
+   padding-top: -2px;
+   padding-bottom: -2px;
   }
   
   ::selection {
@@ -61,18 +63,18 @@
       font-size: 4em;
       font-weight: 700;
       line-height: 1.3em;
-      margin-bottom: 0.8em;
+      margin-bottom: 3em;
       margin: auto;
     }
   
     .heading h2 {
       font-family: 'Open Sans', sans-serif;
       color: #666666;
-      font-size: 0.3em;
+      font-size: 0.28em;
       font-weight: 1;
       line-height: 1.5em;
       text-align: left;
-      padding-top: 1em;
+      padding-top: 2.5em;
       margin: auto;
     }
   
@@ -93,7 +95,8 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 42px;
         letter-spacing: 14px;
-        margin-left: -1px;
+        margin-left: -4px;
+        padding-top: 0.3em;
         text-align: left;
       }
 
@@ -110,13 +113,14 @@
   
     .project__wrapper {
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
-      padding-top: 3em;
+      padding-top: 2.5em;
       display: flex;
       justify-content: left;
       flex-wrap: wrap;
     }
     
     .project__element {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
@@ -134,21 +138,24 @@
           margin-right: 45px; } }
     
     .project__heading {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       font-family: 'Nunito', sans-serif;
       padding-top: 10px;
       line-height: 1.5;
       font-size: 16px;
       letter-spacing: 1px;
-      color: #222; }
+      color: #666666; }
     
     .project__description {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       font-family: 'Open Sans', sans-serif;
-      color: #484848;
+      color: #A9A9A9;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 1px; }
     
     .project__image {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       width: 90%;
       min-width: 260px;
       min-height: 180px;
@@ -159,7 +166,7 @@
           height: 200px; } }
 
     .project__image:hover, .project__image:focus, .project__image:active {
-      transform: scale(1.02);
+      transform: scale(1.08);
       box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08); }
   
    
