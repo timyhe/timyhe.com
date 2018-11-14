@@ -1,0 +1,96 @@
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(25%);
+      opacity: 0.1;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes slideSide {
+    0% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(4%);
+      opacity: 1;
+    }
+  }
+  
+  
+  navy {
+   color: #0C3B62;
+  }
+  
+  
+  
+  ::selection {
+    background: #0C3B62; /* WebKit/Blink Browsers */
+    color: #FFFFFF;
+  }
+  ::-moz-selection {
+    background: #0C3B62; /* Gecko Browsers */
+    color: #FFFFFF;
+  }
+  
+  
+    body {
+      background-color: #F6F6F6;
+      margin: 0;
+    }
+  
+    .logo {
+      margin: 5em;
+      margin-top: 10em;
+      height: 5em;
+      width: 5em;
+    }
+  
+    .logo img {
+      height: 8em;
+      width: 8em;
+    }
+  
+    .heading {
+      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
+      font-family: 'Lato', sans-serif;
+      color: #0C3B62;
+      font-size: 6em;
+      font-weight: 700;
+      line-height: 1.1em;
+      margin-bottom: 6em;
+      margin-left: 1em;
+      margin-top: 4em;
+      margin-right: 1em;
+    }
+  
+  
+    .heading img {
+      position: absolute;
+      z-index: -1;
+      margin-top: -40px;
+    }
+  
+    .heading h2 {
+      font-family: 'Nunito', sans-serif;
+      color: #7B7B7B;
+      font-weight: 400;
+      font-size: 0.2em;
+      line-height: 1.5em;
+      text-align: left;
+    }
+  
+    .heading a {
+      color: #0C3B62;
+      font-size: inherit;
+      font-weight: inherit;
+      text-decoration: none;
+    }
+  
+    .heading a:hover{
+        color: #0070C0;
+    }
