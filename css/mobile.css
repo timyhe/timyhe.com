@@ -24,6 +24,10 @@
   
   blue {
    background-color: #D4D7FE;
+   padding-top: -16px;
+   padding-bottom: -16px;
+   padding: 6px;
+   border-radius: 10px;
   }
   
   ::selection {
@@ -195,9 +199,10 @@
     .project-text h2 {
       margin: 0 0 10px 38px;
       font-size: 13px;
-      font-family: 'Raleway', sans-serif;
+      line-height: 3em;
+      font-family: 'Nunito', sans-serif;
       font-weight: 400;
-      text-transform: uppercase;
+      text-transform: lowercase;
       color: #666666;
       letter-spacing: 0.2em;
     }
