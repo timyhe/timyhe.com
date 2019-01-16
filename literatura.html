@@ -1,27 +1,84 @@
 <!DOCTYPE html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117676851-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-117676851-1');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117676851-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-117676851-1');
+  </script>
   <link rel="icon" href="./favicon.ico">
-  <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 10px) and (max-device-width: 600px)" href="css/mobile.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 10px) and (max-device-width: 800px)" href="css/mobile.css" />
   <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 801px)" href="css/styles.css" />
-<link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 <title>literatura</title>
 </head>
 
 <body>
-    <div class="portfolio__container"> 
-        <div class="project__wrapper">
-            <div class="heading">literatura</h1>
-        </div>
+  <div class="header">
+    <a href="index.html" class="back_to_home"><i class="fas fa-arrow-left"></i></a>
+    <img src="images/literaturascreens.png">
+  </div>
+  <div class="tight-container">
+    <h1>literatura</h1>
+    <div class="case">
+        literatura is a mobile app designed to promote the discovery and facilitate the study of classical works of literature. 
+        The app uses a collection of summaries and quizzes to help the user better know and understand important plot points and themes of each novel.
+    </div></br></br>
+    <h2>Problem Space</h2>
+    <div class="case">
+        There exists a vast number of works of classical literature that are culturally significant and worth studying/understanding. 
+        However, in this day and age, the only real exposure most students get is through the few books they are forced to read in their high school English courses.
+        Despite increased accessibility to these books, the interest in them have been declining. This decline can have severe impacts on a young person's ability to comprehend 
+        the world around them, think critically and become involved in society. 
+    </div></br></br>
+    <h2>User Research</h2>
+    <div class="case">
+        To better understand the target audience, I surveyed peers on their experiences in high school English, as well as pas high school English teachers. Through these surveys, 
+        I tried to get a sense of what made high school English classes insufficient in terms of "getting students into classical literature"
+        and why the students themselves were unmotivated to study the novels assigned to them, much less go on their own and discover new ones. In the end, I came upon these key insights:</br>
+    </div></br>
+    <div class="case">
+      1. Considering the digital age we are currently in, many surveyees simply found other forms of electronic entertainment more enjoyable and easy to consume, creating instant gratification. These included TV shows/movies, video games, and social media. 
+      <br><br>2. Building off of that, the world of classical literature seems foreign and strange, far removed from our modern world, causing a sense of unfamiliarity and fear for the majority of students. 
+      <br><br>3. Even if a student decides to venture out into the world of classical literature, they can waste a lot of time digging through countless Wikipedia, Goodreads, Sparknotes, etc. articles, which can be confusing and discouraging, and not at all exciting.
+    </div><br>
+    <div class="case">
+        The takeaway here is that there is a large disconnect between the cultures of various time periods (in which classical literature was written) and now. On top of that, there is no easily accessible/centralized hub for all of the information for the few students that might want to have a go at studying classical literature.
+        These two factors result in a very discouraging and uncomfortable situation for this generation of students.
+    </div></br>
+    <h2>Design Process</h2>
+    <div class="case">
+      Considering the above factors, the solution must:<br><br>a) reframe classical literature in way where it can be integrated with modern culture and the digital age, providing gratification and comfort in a similar way 
+      <br><br>b) provide a centralized and accessible hub that is easy for a student to navigate and understand, with the least amount of friction/time wasted.<br><br>
+      Considering the fact that nearly every student now has a phone, it made sense to use a mobile app as the platform for this solution. I started drafting UI wireframes for the app on paper, 
+      including screens for information on books/authors (to inform) and screens for quizzes (to gamify and provide instant gratification).
+      I got too excited and created some high-fiedlity mock-ups right away in Figma, as seen below:<br><br>
+      <img src="images/literaturav1.png">
+      <br><br>In hindsight, I was too hasty. I dove headfirst into Android Studio and started developing. While doing so, the lack of further planning and iterations 
+      became a large frustration. I ended scrapping the design entirely and starting from scratch. I redid the UI wireframes, along with a user flow diagram. <br><br>
+    <h2>Style Guide</h2>
+    <div class="case">
+      <img src="images/literaturastyleguide.png"><br><br>
+      With a new design came a new color palette and fonts, this time with a set guide to prevent further frustrations. The color palette is mostly greyscale, with rustic brown accents to invoke the experience of reading an old book.
+      I opted for Gills Sans as the font, calling upon the work of typographer Jan Tschichold when he came up with composition rules for publisher Penguin Books. The modern interface provides familiarity, while the typeface and colors
+      create a vintage, time-honored feel. During the quiz, the user will get alerts, which should be exciting and gratifying, but muted enough to fit in with the rest of the colors.
+    </div><br>
+    <h2>Final Design</h2>
+    <div class="case">
+      I created a high fidelity prototype using Figma, then used Marvel to further communicate things like animations and user flow.<br><br>
+      <img src="images/literaturav2.png"><br><br>
+      <!--<iframe src="https://marvelapp.com/3c4jhdh?emb=1&iosapp=false&frameless=false" width="453" height="884" allowTransparency="true" frameborder="0"></iframe>-->
     </div>
+    <h2>Development and Next Steps</h2>
+    <div class="case">
+      Development on literatura for Android is ongoing, you can check it out on my <a href="github.com/timyhe/literatura">GitHub</a>! 
+      There are plans to port it to iOS to further improve accesibility, as well as future features such as leaderboards and rewards to incentivise learning.
+    </div><br><br>
+    <a href="tryhard.html"><h3>next  <i class="fas fa-arrow-right"> </i></h3></a>
+  </div>
 </body>
