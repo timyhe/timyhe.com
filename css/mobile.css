@@ -222,6 +222,21 @@
       font-weight: lighter;
     }
 
+    .back_to_home {
+      background: none;
+      border: none; /* Remove borders */
+      padding: 10px; /* Some padding */
+      font-size: 24px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+      margin-left: 2em;
+      position: absolute;
+      top: 2em;
+      left: 0em;
+      z-index: 8;
+      display: block;
+      color: #474747;
+    }
+
     .back_to_home:hover{
       color: #D4D7FE;
     }
