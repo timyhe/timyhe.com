@@ -231,7 +231,7 @@
 
     .header img {
       overflow: hidden;
-      height: 25em;
+      height: 32em;
       width: 100%;
       object-fit: cover;
       z-index: -4;
