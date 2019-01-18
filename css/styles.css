@@ -28,6 +28,7 @@
    padding-bottom: -16px;
    padding: 6px;
    border-radius: 10px;
+   color: white;
   }
   
   ::selection {
@@ -72,10 +73,12 @@
       color: #666666;
       font-size: 0.28em;
       font-weight: 1;
-      line-height: 1.5em;
+      line-height: 2em;
       text-align: left;
       padding-top: 2.5em;
       padding-bottom: 0.5em;
+      display: in-line;
+      margin: 15px 0;
     }
   
     a {
@@ -94,7 +97,7 @@
         color: #666666;
         font-family: 'Open Sans', sans-serif;
         font-size: 42px;
-        letter-spacing: 14px;
+        letter-spacing: 20px;
         text-align: left;
       }
 
