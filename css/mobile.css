@@ -23,7 +23,7 @@
   
   
   blue {
-   background-color: #D4D7FE;
+   background-color: #b4b9fd;
    padding-top: -16px;
    padding-bottom: -16px;
    padding: 6px;
@@ -32,11 +32,11 @@
   }
   
   ::selection {
-    background: #D4D7FE; /* WebKit/Blink Browsers */
+    background: #b4b9fd; /* WebKit/Blink Browsers */
     color: #FFFFFF;
   }
   ::-moz-selection {
-    background: #D4D7FE; /* Gecko Browsers */
+    background: #b4b9fd; /* Gecko Browsers */
     color: #FFFFFF;
   }
   
@@ -108,7 +108,7 @@
     }
   
     a:hover{
-      color: #b4b9fd;
+      color: #8c94ff;
     }
   
     .icons {
@@ -239,7 +239,7 @@
     }
 
     .back_to_home:hover{
-      color: #D4D7FE;
+      color: #b4b9fd;
     }
 
     .header {
