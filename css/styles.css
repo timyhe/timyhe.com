@@ -23,7 +23,7 @@
   
   
   blue {
-   background-color: #D4D7FE;
+   background-color: #b4b9fd;
    padding-top: -16px;
    padding-bottom: -16px;
    padding: 6px;
@@ -32,11 +32,11 @@
   }
   
   ::selection {
-    background: #D4D7FE; /* WebKit/Blink Browsers */
+    background: #b4b9fd; /* WebKit/Blink Browsers */
     color: #FFFFFF;
   }
   ::-moz-selection {
-    background: #D4D7FE; /* Gecko Browsers */
+    background: #b4b9fd; /* Gecko Browsers */
     color: #FFFFFF;
   }
   
@@ -82,7 +82,7 @@
     }
   
     a {
-      color: #D4D7FE;
+      color: #b4b9fd;
       font-size: inherit;
       font-weight: inherit;
       text-decoration: none;
@@ -220,7 +220,7 @@
     }
 
     .back_to_home:hover{
-      color: #D4D7FE;
+      color: #b4b9fd;
       transition: 0.4s;
       transform: scale(1.08);
       transform: translateX(-5%);
