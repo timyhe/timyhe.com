@@ -146,7 +146,7 @@
     
     .project {
       display: flex;
-      height: 327px;
+      height: 290px;
       width: 747px;
       margin: 50px auto;
       border-radius: 7px 7px 7px 7px;
@@ -174,7 +174,7 @@
 
     .project-info {
       float: left;
-      height: 327px;
+      height: 290px;
       width: 327px;
       border-radius: 0 7px 10px 7px;
       background-color: #ffffff;
@@ -182,7 +182,7 @@
 
     .project-text {
       height: 300px;
-      width: 327px;
+      width: 290px;
     }
 
     .project-text:a {
@@ -210,6 +210,7 @@
       text-transform: lowercase;
       color: #666666;
       letter-spacing: 0.2em;
+      white-space: nowrap;
     }
 
     .project-text p {
