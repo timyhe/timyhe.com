@@ -75,7 +75,7 @@
       }
   
     .heading {
-      animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
+      animation: 0.4s ease-in-out 0s 1 slideInFromBottom;
       font-family: 'Nunito', sans-serif;
       color: #666666;
       font-size: 4em;
@@ -85,6 +85,7 @@
     }
   
     .heading h2 {
+      animation: 0.4s ease-in-out 0s 1 slideInFromBottom;
       font-family: 'Open Sans', sans-serif;
       color: #666666;
       font-size: 0.28em;
@@ -109,7 +110,7 @@
     }
   
     .icons {
-        /* animation: 0.7s ease-in-out 0s 1 slideInFromBottom; */
+        animation: 0.4s ease-in-out 0s 1 slideInFromBottom;
         color: #666666;
         font-family: 'Open Sans', sans-serif;
         font-size: 42px;
