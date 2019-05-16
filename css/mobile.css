@@ -299,6 +299,10 @@
       color: #61616188;
     }
 
+    .projectpic{
+      height: 290px !important;
+    }
+
     .tight-container {
       max-width: 750px;
       margin: 0 auto 30px auto;
