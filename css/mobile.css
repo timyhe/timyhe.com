@@ -80,8 +80,8 @@
   
     .heading {
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
-      font-family: 'Nunito', sans-serif;
-      color: #666666;
+      font-family: 'Product Sans', sans-serif;
+      color: #616161;
       font-size: 4em;
       font-weight: 700;
       line-height: 1.3em;
@@ -93,10 +93,10 @@
     }
   
     .heading h2 {
-      font-family: 'Open Sans', sans-serif;
-      color: #666666;
+      font-family: 'Product Sans', sans-serif;
+      color: #7a7a7a;
       font-weight: 1;
-      font-size: 0.2em;
+      font-size: 0.5em;
       line-height: 1.5em;
       text-align: left;
       padding-top: 2em;
@@ -121,8 +121,8 @@
   
     .icons {
         animation: 0.7s ease-in-out 0s 1 slideInFromBottom;
-        color: #666666;
-        font-family: 'Open Sans', sans-serif;
+        color: #616161;
+        font-family: 'Product Sans', sans-serif;
         font-size: 42px;
         letter-spacing: 14px;
         margin-left: -1px;
@@ -131,7 +131,7 @@
       }
 
     .icons a {
-        color: #666666;
+        color: #616161;
         font-size: inherit;
         font-weight: inherit;
         text-decoration: none;
@@ -206,17 +206,17 @@
 
     .project-text h1,
     .project-price-btn p {
-      font-family: 'Nunito', serif;
+      font-family: 'Product Sans', serif;
     }
 
     .project-text h2 {
       margin: 0 0 10px 38px;
       font-size: 13px;
       line-height: 3em;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       font-weight: 400;
       text-transform: lowercase;
-      color: #666666;
+      color: #616161;
       letter-spacing: 0.2em;
       white-space: nowrap;
     }
@@ -225,7 +225,7 @@
       height: 125px;
       padding-top: -3em;
       margin: 0 0 0 38px;
-      font-family: 'Open Sans', serif;
+      font-family: 'Product Sans', serif;
       color: #8d8d8d;
       font-size: 15px;
       font-weight: lighter;
@@ -267,9 +267,10 @@
     .tight-container h1 {
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       display: table;
-      font-family: 'Nunito', sans-serif;
-      color: #474747;
-      font-size: 4em;
+      font-family: 'Product Sans', sans-serif;
+      color: #333333;
+      font-size: 3em;
+      letter-spacing: 2px;
       line-height: 1em;
     }
 
@@ -277,9 +278,9 @@
       display: inline;
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       font-size: 1.1em;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       font-weight: 300;
-      color: #666666;
+      color: #616161;
       margin: 15px 0;
       line-height: 2em;
     }
@@ -299,17 +300,17 @@
     }
 
     .tight-container h2 {
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
-      color: #666666;
+      color: #616161;
       font-size: 2em;
       line-height: 1em;
     }
 
     .tight-container h3 {
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
-      color: #666666;
+      color: #616161;
       font-size: 2em;
       line-height: 1em;
       margin-left: 80%;
@@ -332,7 +333,7 @@
       margin: 0 auto 30px auto;
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       font-size: 14px;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       font-weight: 300;
       color: #999999;
       line-height: 2em;
@@ -342,7 +343,7 @@
     footer {
       background-color: #0C3B62;
       color: #FFFFFF;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Product Sans', sans-serif;
       font-size: 1em;
       padding: 10em;
       padding-top: 3em;
