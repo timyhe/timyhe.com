@@ -54,6 +54,19 @@
     padding: 6px;
     border-radius: 10px;
   }
+
+  .flexfinder {
+    float: left; max-width: 500px;
+  }
+
+  .team{
+    min-width: 200px; padding-left: 525px; margin-top: 80px
+  }
+
+  .team h2{
+    margin-top: 60px;
+    font-size: 24px;
+  }
   
   ::selection {
     background: #b4b9fd; /* WebKit/Blink Browsers */
