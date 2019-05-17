@@ -148,6 +148,43 @@
     .icons a:hover{
         color: #D4D7FE;
     }
+
+    .coming:hover {
+      transition: 0.4s;
+      color: #61616188;
+    }
+
+    .overlay {
+      opacity: 0;
+      position: absolute;
+      height: 50%;
+      border-radius: 5px;
+      width: 100%;
+      padding: 0px;
+      background: rgba(255,255,255,0.95);
+      transition: opacity 0.5s;
+    }
+
+    .vh-center {
+      position: absolute;
+      top: 50%;
+      left: 53%;
+      max-width: 180px;
+      transform: translateX(-50%) translateY(-50%);
+      font-family: Nunito;
+      font-weight: 400;
+      color: #4f4f4f;
+      font-size: 24px!important;
+    }
+
+    .project:hover .overlay {
+      opacity: 1;
+    }
+
+    .project:hover .text {
+      opacity: 1;
+      color: #4f4f4f;
+    }
   
     .project__wrapper {
       animation: 0.8s ease-in-out 0s 1 slideInFromBottom;

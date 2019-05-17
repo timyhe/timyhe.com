@@ -153,6 +153,7 @@
       top: 50%;
       left: 53%;
       max-width: 180px;
+      cursor: default;
       transform: translateX(-50%) translateY(-50%);
       font-family: Nunito;
       font-weight: 400;
