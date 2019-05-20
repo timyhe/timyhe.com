@@ -101,10 +101,10 @@
     }
   
     .heading h2 {
-      font-family: 'Product Sans', sans-serif;
+      font-family: 'Nunito', sans-serif;
       color: #7a7a7a;
       font-weight: 1;
-      font-size: 0.5em;
+      font-size: 0.4em;
       line-height: 1.5em;
       text-align: left;
       padding-top: 2em;
@@ -270,7 +270,7 @@
       height: 125px;
       padding-top: -3em;
       margin: 0 0 0 38px;
-      font-family: 'Product Sans', serif;
+      font-family: 'Nunito', serif;
       color: #8d8d8d;
       font-size: 18px;
       font-weight: lighter;
@@ -323,7 +323,7 @@
       display: inline;
       animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
       font-size: 1.1em;
-      font-family: 'Product Sans', sans-serif;
+      font-family: 'Nunito', sans-serif;
       font-weight: 300;
       color: #616161;
       margin: 15px 0;
