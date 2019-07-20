@@ -86,7 +86,7 @@
       margin: 50px auto; }
       @media screen and (min-width: 61.875em) {
         .portfolio__container {
-          max-width: 980px;
+          max-width: 935px;
           margin: 150px auto; } 
       }
       @media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
