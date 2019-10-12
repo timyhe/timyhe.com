@@ -135,6 +135,7 @@ h1{
   text-align: center;
   position:relative;
   min-width:50%;
+  cursor: default;
 }
 
 .column:hover img{
