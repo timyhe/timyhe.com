@@ -45,6 +45,7 @@ a:active { text-decoration: underline;}
   top: 100%;
   display: block;
   margin-bottom: 100px;
+  margin-top: 70px;
 }
 
 .rectangle {
@@ -52,7 +53,7 @@ a:active { text-decoration: underline;}
     left: 10%;
     right: 10%;
     top: 0;
-    bottom: 20%;
+    bottom: 10%;
     background: #F0EAD8;
     z-index: -1;
 }
