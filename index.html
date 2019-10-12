@@ -1,118 +1,108 @@
 <!DOCTYPE html>
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133738556-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-133738556-1');
   </script>
-  <link rel="icon" href="./favicon.ico">
-  <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 10px) and (max-device-width: 800px)" href="css/mobile.css" />
+  <link rel="icon"
+    href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/225/water-wave_1f30a.png">
+  <!-- <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 10px) and (max-device-width: 800px)"
+    href="css/mobile.css" /> -->
   <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 801px)" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
-  <title>tim he</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <title>Tim He</title>
 </head>
 
 <body>
-  <div class="portfolio__container">
-    <div class="heading">
-      hey, i'm <purple>tim!</purple>
-      <div>
-      <h2 class="heading">
-        I'm an aspiring product designer and developer, studying <a href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering">Systems Design Engineering</a> at the University of Waterloo.</br>
-        This fall, I'll be working at <a href="https://www.plangrid.com/">PlanGrid</a>, as a product design intern.
-        Outside of school and work, you can usually find me competing with <a href="http://hdwhite.org/qb/stats/player/Tim+He/">UW's Quizbowl Club</a>, enjoying jazz, guitar, or 
-        <a href="https://open.spotify.com/album/1lDtUlOPGKp56gQ24MvmNG?si=_6w1bLCwRj-RGlZ4rCnTdw">both</a>, 
-        and appreciating <a href="https://berlintransitmap.de/">public transit systems 🚈.</a></br>
-      </h2>
-    </div>
-
-    <div class="icons">
-      <a href="mailto:tyhe@uwaterloo.ca" target='_blank'>📧 email </a>/
-      <a href="https://github.com/timyhe" target='_blank'>💻 github </a>/
-      <a href="https://www.linkedin.com/in/timyhe" target='_blank'>👋 linkedin </a>/
-      <a href="https://dribbble.com/timyhe" target='_blank'>🏀 dribbble </a>/
-      <a href="https://twitter.com/timyhe" target='_blank'>🐦 twitter </a>/
-      <a href="./resume.pdf" target='_blank'>📝 resume</a>
-    </div>
-  </div>
-
-  <div class="project__wrapper">
-    <a href="./literatura.html">
-      <div class="project" style="animation: 0.8s ease-in-out 0s 1 slideInFromBottom;">
-          <div class="project-img">
-            <img class="projectpic" src="./images/literaturascreens.jpeg" height="285" width="420">
-          </div>
-          <div class="project-info">
-              <div class="project-text">
-                <h1>literatura</h1>
-                <h2><blue>development</blue> <blue>product design</blue></h2>
-                <p>Promoting the study of literature through summaries, quizzes, and recommendations</p>
-              </div>
-            </div>
+  <main>
+    <div class="navbar">
+      <ul>
+        <li class="home"><a href="index.html">Tim He</a></li>
+        <div class="links">
+          <li><a href="resume.pdf">Resume</a></li>
+          <li><a href="mailto:tyhe@uwaterloo.ca">Contact</a></li>
         </div>
-      </a>
-      <a href="./flexfinder.html">
-        <div class="project" style="animation: 0.8s ease-in-out 0s 1 slideInFromBottom;">
-            <div class="project-img">
-              <img class="projectpic" src="./images/flexfindermock.jpeg" height="285" width="420">
-            </div>
-            <div class="project-info">
-              <div class="project-text">
-                <h1>flexfinder</h1>
-                <h2><blue>product design</blue></h2>
-                <p>Encouraging youth to exercise with an easy way to find accountable work-out buddies</p>
+      </ul>
+    </div>
+    <div class="content-wrapper">
+      <div class="main-header">
+        <div class="header-text">
+          <h1>Hey, I'm Tim.</h1>
+          <p class="about"> I’m an aspiring product designer studying <a
+              href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering">Systems
+              Design Engineering</a>
+            at the University of Waterloo. Lately, I’ve been interested in <a
+              href="https://open.spotify.com/album/6Sts4Yh7KsDFwq2yTWrGGV">Charles Mingus</a>,
+            <a href="https://berlintransitmap.de/">public transit</a>, and copywriting.
+            I’m currently completing a product design internship at <a href="https://plangrid.design/">PlanGrid</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <div class="row">
+          <div class="column"><a href="literatura.html">
+              <div class="left">
+                <img src="images/Frame.png">
               </div>
-            </div>
-          </div>
-        </a>
-        <a>
-          <div class="project">
-              <div class="project-img coming">
-                <img class="projectpic" src="./images/shufflymockup.jpeg" height="285" width="420">
-                <div class="overlay">
-                    <p class="header vh-center">Coming soon.</p>
-                </div>
-              </div>
-              <div class="project-info">
-                <div class="project-text">
-                  <h1>shuffly</h1>
-                  <h2><blue>product design</blue> <blue>development</blue></h2>
-                  <p>Designing and building the front-end of a Spotify web app to shuffle your playlists in place</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a>
-            <div class="project">
-                <div class="project-img coming">
-                  <img class="projectpic" src="./images/tryhardmockup.jpeg" height="285" width="420">
-                  <div class="overlay">
-                      <p class="header vh-center">Coming soon.</p>
-                  </div>
-                </div>
-                <div class="project-info">
-                  <div class="project-text">
-                    <h1>tryhard</h1>
-                    <h2><blue>product design</blue></h2>
-                    <p>A design proposal for the SYDE 2023 to-do-list, following Apple's Human Interface Guidelines</p>
-                  </div>
-                </div>
+              <div class="hover">
+                <p class="l-text">Literatura<br><br>
+                  <span class="descrip">Promoting the study of classic literature<br><br>*coming soon!*</span></p>
               </div>
             </a>
+          </div>
+
+          <div class="column"><a href="plangrid.html">
+              <div class="right">
+                <img src="images/Frame-1.png">
+              </div>
+              <!-- Hover -->
+              <div class="hover" style="right:0;">
+                <p class="r-text">PlanGrid<br><br>
+                  <span class="descrip">Providing real-time production tracking for construction<br><br>*coming soon!*</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="column"><a href="waterloop.html">
+              <div class="left">
+                <img src="images/Frame-2.png">
+              </div>
+              <!-- Hover -->
+              <div class="hover">
+                <p class="l-text">Waterloop<br><br>
+                  <span class="descrip">Attracting new recruits and sponsors for school Hyperloop team<br><br>*coming soon!*</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="column"><a href="scalar.html">
+              <div class="right">
+                <img src="images/Frame-3.png">
+              </div>
+              <!-- Hover -->
+              <div class="hover" style="right:0;">
+                <p class="r-text">Scalar<br><br>
+                  <span class="descrip">Simplifying Grin cryptocurrency transactions<br><br>*coming soon!*</span></p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-  <!-- <footer>
-    <div class="icons">
-      <a href="mailto:tyhe@uwaterloo.ca" target='_blank'><ion-icon name="mail-open"></ion-icon></a>
-      <a href="https://github.com/timyhe" target='_blank'><ion-icon name="logo-github"></ion-icon></a>
-      <a href="https://www.linkedin.com/in/timyhe" target='_blank'><ion-icon name="logo-linkedin"></ion-icon></a>
-      <a href="./resume.pdf" target='_blank'><ion-icon name="document"></ion-icon></a>
     </div>
-  </footer> -->
-    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>  
-  </body>
-  
+  </main>
+  <!-- <footer class="navbar">
+    <ul>
+      <div class="footerlinks">
+        <li><a href="https://www.linkedin.com/in/timyhe/">LinkedIn</a></li>
+        <li><a href="https://dribbble.com/timyhe">Dribbble</a></li>
+        <li><a href="https://twitter.com/timyhe">Twitter</a></li>
+        <li><a href="https://github.com/timyhe">GitHub</a></li>
+      </div>
+    </ul>
+  </footer>-->
+</body>
