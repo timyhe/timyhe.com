@@ -51,6 +51,12 @@ margin-bottom: 100px;
 .rectangle{ 
   display: hidden;
 }
+
+.rectangle img{
+  display: none;
+}
+
+
 .home {
 font-weight: bold;
 float: left;
