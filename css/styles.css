@@ -19,13 +19,19 @@ a{
   color: inherit;
 }
 
-p {
+main {
+  box-sizing: border-box;
+  min-height: 90%;
+
+}
+
+/* p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}
+} */
 
 .main-header {
   height: 70vh;
@@ -61,6 +67,9 @@ a:active { text-decoration: underline;}
 .rectangle img{
   max-height: 100%;
   max-width: 100%;
+
+  height: 100%;
+  width: 100%
 }
 
 .home {
@@ -87,11 +96,9 @@ a:active { text-decoration: underline;}
 }
 
 footer{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
-  display: block;
+   left:0px;
+   bottom:0;
+   width:100%;
 }
 
 h1{
@@ -99,7 +106,8 @@ h1{
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
-  line-height: 20px;
+  margin-bottom: 5px;
+  /* line-height: 20px; */
   text-align: center;
 }
 
@@ -113,6 +121,18 @@ h1{
   display: block;
   padding-left: 22.5%;
   padding-right: 22.5%;
+}
+
+.footer {
+  max-height: fit-content;
+  display: block;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .navbar ul {
