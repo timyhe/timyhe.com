@@ -135,17 +135,22 @@ h1{
   text-align: center;
   position:relative;
   min-width:50%;
+
   cursor: default;
 }
 
 .column:hover img{
   opacity:0.18;
   transition: visibility 0s 0.15s, opacity 0.15s linear;
+
+  cursor: default;
 }
 
 .column img{
 
   transition: visibility 0s 0.15s, opacity 0.15s linear;
+
+  cursor: default;
 }
 
 
@@ -182,6 +187,8 @@ h1{
   font-size:20px;
   color:white;
   font-weight: 400;
+
+  cursor: default;
 }
 
 .descrip {
@@ -192,22 +199,30 @@ h1{
 .column:hover .hover{
   opacity:1;
   transition: opacity 0.15s linear;
+
+  cursor: default;
 }
 
 .left{
   margin: 16px 40px 60px 0px;
   background-color:black;
+
+  cursor: default;
 }
 
 .right{
   margin: 16px 0px 60px 40px;
   background-color:black;
+
+  cursor: default;
 }
 
 .column img{
   width:100%;
   overflow: hidden;
   display: inherit;
+
+  cursor: default;
 }
 
 .l-text{
