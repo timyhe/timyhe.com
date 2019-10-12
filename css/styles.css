@@ -28,10 +28,10 @@ p {
 }
 
 .main-header {
-  height: 50vh;
+  height: 35vh;
   display: flex;
   align-items: center;
-  max-width: 40%;
+  max-width: 42%;
 }
 
 a:hover { text-decoration: underline; color: #5f5f5f}
@@ -48,7 +48,6 @@ a:active { text-decoration: underline;}
 }
 
 .home {
-  font-weight: bold;
   float: left;
 
   margin-top:50px;
@@ -84,13 +83,13 @@ h1{
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
-  line-height: 66px;
+  line-height: 20px;
   text-align: center;
 }
 
 .header-text {
   width: 100%;
-  top: 35%;
+  top: 10%;
 }
 
 .navbar {
