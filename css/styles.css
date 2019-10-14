@@ -289,6 +289,7 @@ h1{
 
 .l-text{
   font-size: 18px;
+  max-width: 65%;
   font-weight: bold !important;
 }
 
