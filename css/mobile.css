@@ -251,12 +251,12 @@ transition: opacity 0.15s linear;
 
 .left{
   margin-top: 60px;
-background-color:black;
+background-color:transparent;
 }
 
 .right{
 margin-top: 60px;
-background-color:black;
+background-color:transparent;
 }
 
 .column img{
