@@ -63,12 +63,25 @@ margin-bottom: 250px;
 }
 
 
-.rectangle{ 
-  display: none;
+.rectangle {
+  position: relative;
+  display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20%;
+    /* bottom: 30%; */
+    max-width: 50%;
+    max-height:40%;
+    align-content: flex-start;
+
 }
 
 .rectangle img{
-  display: none;
+  max-height: 100%;
+  max-width: 100%;
+
+  height: 100%;
+  width: 100%
 }
 
 
@@ -82,6 +95,18 @@ font-size:36px;
 
 .aboot{
   display:none;
+}
+
+.abooot{
+  text-align: center;
+  font-family: Source Serif Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+
+  margin: auto;
+
+  color: #323232;
 }
 
 .headomobile{

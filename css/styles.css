@@ -180,6 +180,20 @@ h1{
   color: #323232;
 }
 
+.abooot{
+  font-family: Source Serif Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  max-width:72%;
+  text-align: left;
+
+  margin: 0;
+
+  color: #323232;
+}
+
 .rightpadd {
   padding-left: 40px;
 }
