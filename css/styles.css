@@ -22,7 +22,7 @@ a{
 main {
   box-sizing: border-box;
   min-height: 90%;
-
+  margin: 0 auto;
 }
 
 /* p {
