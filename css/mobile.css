@@ -37,7 +37,7 @@ max-width: 100%;
 .footer {
   max-height: fit-content;
   display: block;
-  padding-left: 18.5%;
+  font-size: 36px;
 }
 
 .footer ul {
@@ -46,6 +46,7 @@ max-width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 36px;
 }
 
 a:hover { text-decoration: underline; color: #5f5f5f}
@@ -58,7 +59,7 @@ position: absolute;
 max-width: 70%;
 top: 80%;
 display: block;
-margin-bottom: 100px;
+margin-bottom: 250px;
 }
 
 
@@ -92,7 +93,7 @@ padding-left:48px;
 margin-top:50px;
 float:left;
 font-weight:400;
-font-size:18px;
+font-size:28px;
 }
 
 footer{

@@ -34,10 +34,11 @@ main {
 } */
 
 .main-header {
-  height: 70vh;
+  height: 35vh;
   display: flex;
-  align-items: center;
-  max-width: 37%;
+  margin-top:5%;
+  align-items:center;
+  max-width: 35%;
 }
 
 a:hover { text-decoration: underline; color: #5f5f5f}
@@ -48,10 +49,10 @@ a:active { text-decoration: underline;}
 .portfolio {
   position: absolute;
   max-width: 55%;
-  top: 100%;
+  top: 75%;
   display: block;
+  margin-top: 40px;
   margin-bottom: 100px;
-  margin-top: 70px;
 }
 
 .rectangle {
@@ -59,7 +60,7 @@ a:active { text-decoration: underline;}
     left: 10%;
     right: 10%;
     top: 0;
-    bottom: 10%;
+    bottom: 30%;
     background: #F0EAD8;
     z-index: -1;
 }
@@ -75,16 +76,20 @@ a:active { text-decoration: underline;}
 .home {
   float: left;
 
-  margin-top:50px;
-	font-size:18px;
+  margin-top:5px;
+  font-size:18px;
+  
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .links li{
   padding-left:48px;
-  margin-top:50px;
+  margin-top:5px;
   float:right;
 	font-weight:400;
-	font-size:18px;
+  font-size:18px;
+  
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .footerlinks li{
@@ -119,8 +124,8 @@ h1{
 .navbar {
   max-height: fit-content;
   display: block;
-  padding-left: 22.5%;
-  padding-right: 22.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .footer {
@@ -129,6 +134,8 @@ h1{
 }
 
 .footer ul {
+  font-family: 'Source Sans Pro', sans-serif;
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -165,7 +172,7 @@ h1{
   flex-direction: column;
   flex-basis: 100%;
   flex:1;
-  max-width:60%;
+  max-width:50%;
   height:100%;
   text-align: center;
   position:relative;
@@ -227,6 +234,8 @@ h1{
 }
 
 .descrip {
+font-family: 'Source Sans Pro', sans-serif;
+
   font-weight: 300;
   font-size: 16px;
 }
