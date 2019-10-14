@@ -48,8 +48,8 @@ a:active { text-decoration: underline;}
 
 .portfolio {
   position: absolute;
+  top: 20rem;
   max-width: 76%;
-  top: 65%;
   display: block;
   margin-bottom: 100px;
 }
