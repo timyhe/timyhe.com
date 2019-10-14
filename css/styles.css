@@ -48,7 +48,7 @@ main {
   max-width: 86%;
 }
 
-a:hover { text-decoration: underline; color: #5f5f5f}
+a:hover { text-decoration: underline;}
 a:visited { text-decoration: none;}
 a:focus { text-decoration: underline;}
 a:active { text-decoration: underline;}
@@ -84,7 +84,7 @@ a:active { text-decoration: underline;}
   margin-top:20px;
   font-size:18px;
   
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 
 .links li{
@@ -94,7 +94,7 @@ a:active { text-decoration: underline;}
 	font-weight:400;
   font-size:18px;
   
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 
 .footerlinks li{
@@ -139,7 +139,7 @@ h1{
 }
 
 .footer ul {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 
   list-style-type: none;
   margin: 0;
@@ -155,7 +155,7 @@ h1{
 }
 
 .about{
-  font-family: Source Sans Pro;
+  font-family: Source Serif Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -172,7 +172,7 @@ h1{
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
-  max-width:80%;
+  max-width:72%;
   text-align: left;
 
   margin: 0;
@@ -246,7 +246,7 @@ h1{
 }
 
 .descrip {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 
   font-weight: 300;
   font-size: 16px;
