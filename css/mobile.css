@@ -80,6 +80,14 @@ margin-top:50px;
 font-size:36px;
 }
 
+.aboot{
+  display:none;
+}
+
+.headomobile{
+  display:none;
+}
+
 .links li{
 padding-left:48px;
 margin-top:50px;

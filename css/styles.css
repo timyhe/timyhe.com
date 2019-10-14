@@ -1,11 +1,11 @@
 .content-wrapper {
     height: auto;
-    padding-left: 5.5%;
+    padding-left: 12.5%;
     padding-right: 5.5%;
     padding-bottom: 100px;
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 body {
@@ -37,8 +37,8 @@ main {
   height: 35vh;
   display: flex;
   margin-top:5%;
-  align-items:center;
-  max-width: 35%;
+  align-items:right;
+  max-width: 86%;
 }
 
 a:hover { text-decoration: underline; color: #5f5f5f}
@@ -48,10 +48,9 @@ a:active { text-decoration: underline;}
 
 .portfolio {
   position: absolute;
-  max-width: 55%;
-  top: 75%;
+  max-width: 76%;
+  top: 65%;
   display: block;
-  margin-top: 40px;
   margin-bottom: 100px;
 }
 
@@ -76,7 +75,7 @@ a:active { text-decoration: underline;}
 .home {
   float: left;
 
-  margin-top:5px;
+  margin-top:20px;
   font-size:18px;
   
   font-family: 'Source Sans Pro', sans-serif;
@@ -84,7 +83,7 @@ a:active { text-decoration: underline;}
 
 .links li{
   padding-left:48px;
-  margin-top:5px;
+  margin-top:20px;
   float:right;
 	font-weight:400;
   font-size:18px;
@@ -110,10 +109,9 @@ h1{
   font-family: 'Source Serif Pro', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 55px;
   margin-bottom: 5px;
-  /* line-height: 20px; */
-  text-align: center;
+  text-align:left;
 }
 
 .header-text {
@@ -124,8 +122,8 @@ h1{
 .navbar {
   max-height: fit-content;
   display: block;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 .footer {
@@ -155,9 +153,27 @@ h1{
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
+  text-align: left;
+  max-width:45%;
 
   color: #323232;
+}
+
+.aboot{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+
+  margin: 0;
+
+  color: #323232;
+}
+
+.rightpadd {
+  padding-left: 40px;
 }
 
 .row {
@@ -178,21 +194,16 @@ h1{
   position:relative;
   min-width:50%;
 
-  cursor: default;
+  border-radius: 2px;
 }
 
 .column:hover img{
-  opacity:0.18;
-  transition: visibility 0s 0.15s, opacity 0.15s linear;
-
-  cursor: default;
+  background-color: #fff;
+  opacity: 0.38;
 }
 
 .column img{
-
-  transition: visibility 0s 0.15s, opacity 0.15s linear;
-
-  cursor: default;
+  transition: opacity 192ms ease;
 }
 
 
@@ -203,11 +214,8 @@ h1{
   height:calc(100% - 60px);
   overflow: hidden;
   top:0;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.3s;
-  transition: visibility 0s 0.15s, opacity 0.15s linear;
 
+  border-radius: 2px;
 
   display: -webkit-box;
   display: -moz-box;
@@ -216,8 +224,6 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-
-  cursor: default;
 }
 
 
@@ -227,10 +233,8 @@ h1{
   text-align: center;
   width:50%;
   font-size:20px;
-  color:white;
+  color: #323232;
   font-weight: 400;
-
-  cursor: default;
 }
 
 .descrip {
@@ -243,30 +247,22 @@ font-family: 'Source Sans Pro', sans-serif;
 .column:hover .hover{
   opacity:1;
   transition: opacity 0.15s linear;
-
-  cursor: default;
 }
 
 .left{
   margin: 16px 40px 60px 0px;
-  background-color:black;
-
-  cursor: default;
+  background-color:#fff;
 }
 
 .right{
   margin: 16px 0px 60px 40px;
-  background-color:black;
-
-  cursor: default;
+  background-color:#fff;
 }
 
 .column img{
   width:100%;
   overflow: hidden;
   display: inherit;
-
-  cursor: default;
 }
 
 .l-text{
@@ -275,7 +271,6 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .r-text{
-  font-size: 18px;
-  font-weight: bold !important;
+  padding-left: 30px;
 }
 
