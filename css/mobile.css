@@ -3,8 +3,28 @@ html{
   scroll-behavior: smooth;
 }
 
-:target {
-  color: #C05717;
+.arrow {
+  float:left;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 .content-wrapper {
@@ -29,7 +49,7 @@ color: inherit;
 }
 
 .headomobile{
-font-size: 42px !important;
+font-size: 55px !important;
 }
 
 main {
@@ -180,9 +200,9 @@ color: #323232;
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-max-width:72%;
+font-size: 30px!important;
+line-height: 30px;
+max-width:90%;
 text-align: left;
 
 margin: 0;
