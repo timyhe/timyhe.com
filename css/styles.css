@@ -3,13 +3,13 @@
     padding-left: 12.5%;
     padding-right: 5.5%;
     padding-bottom: 100px;
-    position: absolute;
-    display: flex;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column; */
     justify-content: right;
 }
 
 body {
-  background: #F4F3F0;
   font-family: 'Source Serif Pro', serif;
   color: #323232;
 }
@@ -38,37 +38,32 @@ main {
 } */
 
 .main-header {
-  height: 35vh;
-  display: flex;
-  margin-top:5%;
+  height: auto;
+  margin-top:8%;
   align-items:right;
-  max-width: 86%;
+  width: 90%;
 }
 
 .main-headerabout {
-  display: flex;
+  height: auto;
   align-items:right;
-  max-width: 86%;
+  width: 90%;
 }
 
-a:hover { text-decoration: underline;}
+a:hover { text-decoration: none; color: #F49342}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: underline;}
-a:active { text-decoration: underline;}
+a:focus { text-decoration: none; color: #F49342}
+a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  position: absolute;
-  top: 23rem;
-  max-width: 76%;
-  display: block;
+  /* margin-top: 6%; */
+  width: 90%;
   margin-bottom: 100px;
 }
 
 .rectangle {
   position: relative;
-    left: 12.5%;
     margin-top: 5%;
-    /* bottom: 30%; */
     max-width: 30%;
     max-height:10%;
 }
@@ -134,11 +129,7 @@ h1:hover{
 }
 
 .navbar {
-  padding-left: 12.5%;
-  z-index:1;
-
-  display: block;
-  width: 76%;
+  width: 90%;
 }
 
 .footer {
@@ -169,7 +160,7 @@ h1:hover{
   font-size: 18px;
   line-height: 25px;
   text-align: left;
-  max-width:45%;
+  max-width:75%;
 
   color: #323232;
 }
