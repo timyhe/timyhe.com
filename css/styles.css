@@ -1,3 +1,8 @@
+html{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 .content-wrapper {
     height: auto;
     padding-left: 12.5%;
@@ -175,8 +180,6 @@ h1:hover{
   text-align: left;
 
   margin: 0;
-
-  color: #323232;
 }
 
 .abooot{

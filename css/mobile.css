@@ -1,3 +1,12 @@
+html{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+:target {
+  color: #C05717;
+}
+
 .content-wrapper {
   height: auto;
   padding-left: 12.5%;
