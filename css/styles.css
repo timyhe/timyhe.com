@@ -120,6 +120,10 @@ h1{
   text-align:left;
 }
 
+h1:hover{
+  text-decoration: none !important;
+}
+
 .header-text {
   width: 100%;
   top: 10%;

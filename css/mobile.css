@@ -228,6 +228,10 @@ align-items: center;
 justify-content: center;
 }
 
+.rightpadd {
+  padding-left: 40px;
+}
+
 
 .column .hover p {
 position: absolute;
@@ -235,7 +239,6 @@ position: absolute;
 text-align: center;
 width:50%;
 font-size:20px;
-color:white;
 font-weight: 400;
 }
 
