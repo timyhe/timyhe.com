@@ -15,7 +15,8 @@ color: #323232;
 }
 
 a{
-color: #464646;
+  text-decoration: none;
+  color: #464646;
 }
 
 p {
@@ -33,10 +34,18 @@ align-items: center;
 max-width: 100%;
 }
 
+.main-headerabout {
+  display: flex;
+  margin-top:5%;
+  align-items:right;
+  max-width: 96%;
+}
+
+
 .footer {
+  font-family: 'Nunito Sans', sans-serif;
   max-height: fit-content;
   display: block;
-  font-size: 36px;
 }
 
 .footer ul {
@@ -48,7 +57,7 @@ max-width: 100%;
   font-size: 36px;
 }
 
-a:hover { text-decoration: none; color: #323232}
+a:hover { text-decoration: underline; color: #323232}
 a:visited { text-decoration: underline;}
 a:focus { text-decoration: underline;}
 a:active { text-decoration: underline;}
@@ -98,7 +107,7 @@ font-size:36px;
 
 .abooot{
   text-align: center;
-  font-family: Source Serif Pro;
+  font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -151,6 +160,7 @@ top: 35%;
 }
 
 .navbar {
+font-family: 'Nunito Sans', sans-serif;
 max-height: fit-content;
 display: block;
 padding-left: 8.5%;
@@ -165,7 +175,7 @@ overflow: hidden;
 }
 
 .about{
-font-family: Source Serif Pro;
+  font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 42px;

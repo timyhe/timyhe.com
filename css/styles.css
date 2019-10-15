@@ -171,6 +171,7 @@ h1:hover{
   line-height: 25px;
   text-align: left;
   max-width:45%;
+  margin-top: 0;
 
   color: #323232;
 }
