@@ -4,7 +4,12 @@ html{
 }
 
 .arrow {
-  float:left;
+  float: right;
+  font-size: 24px;
+}
+
+.worklabel{
+  width:474px;
 }
 
 .bounce {
