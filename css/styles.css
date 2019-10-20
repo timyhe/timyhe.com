@@ -26,6 +26,7 @@ a{
 
 .headomobile{
   font-size: 42px !important;
+  margin-bottom: 5px;
 }
 
 main {
@@ -61,7 +62,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  /* margin-top: 6%; */
+  margin-top: 6%;
   width: 90%;
   margin-bottom: 100px;
 }
@@ -119,7 +120,7 @@ h1{
   font-family: 'Source Serif Pro', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 69px;
   margin-bottom: 0px;
   text-align:left;
 }
@@ -312,39 +313,6 @@ h1:hover{
     /* position: relative;*/
 }
 
-@keyframes arrowDetail {
-  0% {
-      opacity: 0;
-      -webkit-transform: translate(0px, -20px);
-      -moz-transform: translate(0px, -20px);
-      -ms-transform: translate(0px, -20px);
-  }
-  20% {
-      opacity: 1;
-      -webkit-transform: translate(0px, 0px);
-      -moz-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-  }
-  50% {
-      opacity: 1;
-      -moz-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-      -webkit-transform: translate(0px, 0px);
-  }
-  80% {
-      opacity: 1;
-      -webkit-transform: translate(0px, 0px);
-      -moz-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-  }
-  100% {
-      opacity: 0;
-      -webkit-transform: translate(0px, 20px);
-      -moz-transform: translate(0px, 20px);
-      -ms-transform: translate(0px, 20px);
-  }
-}
-
 .column:hover .hover{
   opacity:1;
   transition: opacity 0.15s linear;
@@ -368,14 +336,12 @@ h1:hover{
 
 .l-text{
   font-size: 18px;
-  color:#F49342!important;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 .ll-text{
   font-size: 18px;
   font-family: 'Nunito Sans', sans-serif;
-  color:#F49342;
   cursor: default;
 }
 

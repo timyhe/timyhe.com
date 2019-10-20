@@ -27,10 +27,10 @@ html{
 
 .content-wrapper {
   height: auto;
-  padding-left: 12.5%;
+  padding-left: 5.5%;
   padding-right: 5.5%;
   padding-bottom: 100px;
-  max-width:90%;
+  max-width:100%;
   /* position: absolute; */
   /* display: flex;
   flex-direction: column; */
@@ -50,6 +50,7 @@ color: inherit;
 
 .headomobile{
 font-size: 55px !important;
+margin-bottom: 5px;
 }
 
 main {
@@ -86,8 +87,8 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-/* margin-top: 6%; */
-width: 90%;
+margin-top: 12%;
+width: 100%;
 margin-bottom: 100px;
 }
 
@@ -160,7 +161,7 @@ top: 10%;
 
 .navbar {
 margin-top: 5%;
-width: 90%;
+width: 100%;
 font-size:36px;
 }
 
