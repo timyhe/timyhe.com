@@ -3,6 +3,16 @@ html{
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-Regular.woff2") format('woff2'),
+       url('./HKGrotesk-Regular.woff') format('woff'),
+       url('./HKGrotesk-Regular.ttf') format('truetype');
+
+      font-weight: normal;
+      font-style: normal;
+}
+
 .content-wrapper {
     height: auto;
     padding-left: 12.5%;
@@ -25,7 +35,7 @@ a{
 }
 
 .headomobile{
-  font-size: 42px !important;
+  font-size: 24px !important;
   margin-bottom: 5px;
 }
 
@@ -45,7 +55,7 @@ main {
 
 .main-header {
   height: auto;
-  margin-top:8%;
+  margin-top:15%;
   align-items:right;
   width: 90%;
 }
@@ -62,7 +72,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 6%;
+  margin-top: 13%;
   width: 90%;
   margin-bottom: 100px;
 }
@@ -89,7 +99,7 @@ a:active { text-decoration: none; color: #F49342}
   font-size:18px;
   font-weight: bold;
   
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 }
 
 .links li{
@@ -99,7 +109,7 @@ a:active { text-decoration: none; color: #F49342}
 	font-weight:400;
   font-size:18px;
   
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 }
 
 .footerlinks li{
@@ -120,7 +130,7 @@ h1{
   font-family: 'Source Serif Pro', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 69px;
+  font-size: 50px;
   margin-bottom: 0px;
   text-align:left;
 }
@@ -144,7 +154,7 @@ h1:hover{
 }
 
 .footer ul {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 
   list-style-type: none;
   margin: 0;
@@ -160,7 +170,7 @@ h1:hover{
 }
 
 .about{
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -172,7 +182,7 @@ h1:hover{
 }
 
 .aboot{
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -183,7 +193,7 @@ h1:hover{
 }
 
 .abooot{
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -262,7 +272,7 @@ h1:hover{
 }
 
 .descrip {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 
   font-weight: 300;
   font-size: 16px;
@@ -336,12 +346,12 @@ h1:hover{
 
 .l-text{
   font-size: 18px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 }
 
 .ll-text{
   font-size: 18px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   cursor: default;
 }
 
