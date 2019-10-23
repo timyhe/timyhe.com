@@ -13,6 +13,11 @@ html{
       font-style: normal;
 }
 
+@font-face {
+  font-family: 'Tiempos-Headline';
+  src: url('./TiemposHeadline-Semibold.woff') format('woff');
+}
+
 .content-wrapper {
     height: auto;
     padding-left: 12.5%;
@@ -25,7 +30,7 @@ html{
 }
 
 body {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Tiempos-Headline', serif;
   /* color: #323232; */
 }
 
