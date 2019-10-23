@@ -11,7 +11,7 @@ html{
 
 @font-face {
   font-family: 'Tiempos-Headline';
-  src: url('./TiemposHeadline-Semibold.woff') format('woff');
+  src: url('./TiemposHeadline-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -162,6 +162,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 72px;
 margin-bottom: 25px;
+letter-spacing: 2px;
 text-align:left;
 }
 
