@@ -330,7 +330,7 @@ cursor: default;
 padding-left: 30px;
 }
 
-.weirdlineheight{
-  line-height: 60px;
+h1 .weirdlineheight{
+  line-height: 72px !important;
 }
 
