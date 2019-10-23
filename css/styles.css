@@ -15,15 +15,20 @@ html{
 
 @font-face {
   font-family: 'HKGrotesk';
-  src: url("./HKGrotesk-SemiBold.ttf") format('truetype');
+  src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
+       url('./HKGrotesk-SemiBold.woff') format('woff'),
+       url('./HKGrotesk-SemiBold.ttf') format('truetype');
 
       font-weight: bold;
       font-style: normal;
 }
 
 @font-face {
-  font-family: 'Caslon';
-  src: url('./ACaslonPro-Semibold.otf') format('opentype');
+  font-family: 'Souvenir';
+  src: url("./Souvenir.woff") format('woff');
+
+      font-weight: bold;
+      font-style: normal;
 }
 
 .content-wrapper {
@@ -38,7 +43,7 @@ html{
 }
 
 body {
-  font-family: 'Caslon', serif;
+  font-family: 'Souvenir', serif;
   /* color: #323232; */
 }
 
