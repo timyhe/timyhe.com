@@ -48,8 +48,8 @@ html{
 }
 
 body {
-font-family: 'Crimson Text', serif;
-color: #323232;
+font-family: 'Source Serif Pro', serif;
+/* color: #323232; */
 width:100%!important;
 }
 
@@ -155,7 +155,7 @@ h1{
 font-style: normal;
 font-weight: 900;
 font-size: 72px;
-margin-bottom: 0px;
+margin-bottom: 25px;
 text-align:left;
 }
 
@@ -202,8 +202,6 @@ font-weight: normal;
 font-size: 18px;
 text-align: left;
 max-width:90%;
-
-color: #323232;
 }
 
 .aboot{
@@ -216,8 +214,6 @@ line-height: 30px;
 text-align: left;
 
 margin: 0;
-
-color: #323232;
 }
 
 .abooot{
@@ -230,8 +226,6 @@ max-width:100%;
 text-align: left;
 
 margin: 0;
-
-color: #323232;
 }
 
 .column {
@@ -283,7 +277,6 @@ position: absolute;
 text-align: center;
 width:50%;
 font-size:20px;
-color: #323232;
 font-weight: 400;
 }
 
