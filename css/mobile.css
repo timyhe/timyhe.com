@@ -48,7 +48,7 @@ html{
 }
 
 body {
-font-family: 'Source Serif Pro', serif;
+font-family: 'Crimson Text', serif;
 /* color: #323232; */
 width:100%!important;
 }
@@ -315,6 +315,7 @@ display: inherit;
 
 .l-text{
 font-size: 18px;
+color: #323232;
 font-family: 'HKGrotesk', sans-serif;
 }
 
