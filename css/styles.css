@@ -14,8 +14,16 @@ html{
 }
 
 @font-face {
-  font-family: 'Tiempos-Headline';
-  src: url('./TiemposHeadline-Regular.woff') format('woff');
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-SemiBold.ttf") format('truetype');
+
+      font-weight: bold;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caslon';
+  src: url('./ACaslonPro-Semibold.otf') format('opentype');
 }
 
 .content-wrapper {
@@ -30,7 +38,7 @@ html{
 }
 
 body {
-  font-family: 'Tiempos-Headline', serif;
+  font-family: 'Caslon', serif;
   /* color: #323232; */
 }
 
@@ -135,7 +143,6 @@ h1{
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  letter-spacing: 2px;
   text-align:left;
 }
 
@@ -178,7 +185,7 @@ h1:hover{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   text-align: left;
   max-width:70%;
 }
@@ -188,7 +195,7 @@ h1:hover{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   text-align: left;
 
   margin: 0;
@@ -199,7 +206,7 @@ h1:hover{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   max-width:75%;
   text-align: left;
 

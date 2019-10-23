@@ -10,8 +10,8 @@ html{
 
 
 @font-face {
-  font-family: 'Tiempos-Headline';
-  src: url('./TiemposHeadline-Regular.woff') format('woff');
+  font-family: 'Caslon';
+  src: url('./ACaslonPro-Semibold.otf') format('opentype');
 }
 
 @font-face {
@@ -54,7 +54,7 @@ html{
 }
 
 body {
-font-family: 'Tiempos-Headline', serif;
+font-family: 'Caslon', serif;
 /* color: #323232; */
 width:100%!important;
 }
