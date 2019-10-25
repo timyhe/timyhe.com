@@ -83,6 +83,12 @@ main {
   align-items:right;
   width: 90%;
 }
+span{
+  font-family: 'HKGrotesk';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px !important;
+}
 
 a:hover { text-decoration: none; color: #F49342}
 a:visited { text-decoration: none;}
@@ -148,7 +154,6 @@ h1{
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  letter-spacing: 2px;
   text-align:left;
 }
 
