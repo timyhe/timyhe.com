@@ -87,7 +87,7 @@ span{
   font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 18px;
-  line-height: 18px !important;
+  vertical-align: 50%;
 }
 
 a:hover { text-decoration: none; color: #F49342}

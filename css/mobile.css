@@ -175,15 +175,14 @@ font-style: normal;
 font-weight: 700;
 font-size: 72px;
 margin-bottom: 25px;
-letter-spacing: 1px;
 text-align:left;
 }
 
 span{
+  display: block;
   font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 18px;
-  line-height: 18px !important;
 }
 
 h1:hover{
