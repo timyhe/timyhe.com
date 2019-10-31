@@ -3,6 +3,10 @@ html{
   scroll-behavior: smooth;
 }
 
+.case {
+  background-color: #fff;
+}
+
 @font-face {
   font-family: 'HKGrotesk';
   src: url("./HKGrotesk-Regular.woff2") format('woff2'),
@@ -44,8 +48,8 @@ html{
 
 body {
   font-family: 'Souvenir', serif;
-  background-color: #f5f5f5;
-  color: rgb(29,29,29);
+  background-color: #fff;
+  color: #212529;
 }
 
 a{
@@ -75,7 +79,6 @@ main {
 .main-header {
   height: auto;
   margin-top:15%;
-  align-items:right;
   width: 90%;
 }
 
@@ -88,7 +91,9 @@ span{
   font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 18px;
-  vertical-align: 50%;
+  display: inline-block;
+  margin-bottom: 1rem;
+  /* vertical-align: 100%; */
 }
 
 a:hover { text-decoration: none; color: #F49342}
@@ -154,8 +159,9 @@ footer{
 h1{
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3rem;
   text-align:left;
+  color: #000;
 }
 
 h1:hover{
@@ -224,6 +230,7 @@ h1:hover{
 
   margin: 0;
 }
+
 
 .rightpadd {
   padding-left: 40px;
