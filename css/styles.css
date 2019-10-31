@@ -3,10 +3,6 @@ html{
   scroll-behavior: smooth;
 }
 
-.case {
-  background-color: #fff;
-}
-
 @font-face {
   font-family: 'HKGrotesk';
   src: url("./HKGrotesk-Regular.woff2") format('woff2'),
@@ -48,7 +44,7 @@ html{
 
 body {
   font-family: 'Souvenir', serif;
-  background-color: #fff;
+
   color: #212529;
 }
 
@@ -169,8 +165,14 @@ h1:hover{
 }
 
 .header-text {
-  width: 100%;
+  width: auto;
   top: 10%;
+}
+
+.bottom{
+  /* display: inline-block; */
+  float: right;
+  text-align: right !important;
 }
 
 .navbar {
