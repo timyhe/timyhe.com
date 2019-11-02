@@ -145,6 +145,7 @@ margin-top:20px;
 font-size:36px;
 font-weight: bold;
 
+color: #696969;
 font-family: 'HKGrotesk', sans-serif;
 }
 
@@ -185,6 +186,7 @@ span{
   font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 18px;
+  color: #696969;
 }
 
 h1:hover{
@@ -209,6 +211,7 @@ display: block;
 
 .footer ul {
 font-family: 'HKGrotesk', sans-serif;
+color: #696969;
 
 list-style-type: none;
 margin: 0;
@@ -225,6 +228,7 @@ overflow: hidden;
 
 .about{
 font-family: 'HKGrotesk', sans-serif;
+color: #696969;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -236,6 +240,7 @@ max-width:90%;
 .aboot{
 font-family: 'HKGrotesk', sans-serif;
 font-style: normal;
+color: #696969;
 font-weight: normal;
 font-size: 30px!important;
 line-height: 30px;
@@ -247,6 +252,7 @@ margin: 0;
 
 .abooot{
 font-family: 'HKGrotesk', sans-serif;
+color: #696969;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -311,6 +317,7 @@ font-weight: 400;
 
 .descrip {
 font-family: 'HKGrotesk', sans-serif;
+color: #696969;
 
 font-weight: 300;
 font-size: 16px;
@@ -339,6 +346,7 @@ display: inherit;
 
 .caption-container{
   font-size:11px;
+  font-style: italic;
   color:#5f5f5f;
 }
 
