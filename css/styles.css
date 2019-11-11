@@ -185,11 +185,13 @@ h1:hover{
 .footer {
   max-height: fit-content;
   display: block;
+  font-size: 16px;
 }
 
 .footer ul {
   font-family: 'HKGrotesk', sans-serif;
   color: #696969;
+  font-size: 16px !important;
 
   list-style-type: none;
   margin: 0;
@@ -394,3 +396,15 @@ h1:hover{
 .r-text{
   padding-left: 30px;
 }
+
+.yeehaw{
+  line-height: 0;
+  display: inline;
+}
+
+.yeehaw:hover span{
+  line-height: 0;
+  display: none;
+}
+
+.yeehaw:hover:before {content:"天"}
