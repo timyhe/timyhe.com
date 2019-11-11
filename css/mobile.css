@@ -198,8 +198,12 @@ text-decoration: none !important;
 
 .header-text {
 width: 100%;
-margin-top: 20%;
+margin-top: 80%;
 margin-bottom: 20%;
+}
+
+.header-text h1{
+  font-size: 90px;
 }
 
 .navbar {
