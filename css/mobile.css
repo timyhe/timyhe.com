@@ -44,14 +44,6 @@ html{
     max-height:90%;
 }
 
-sup{
-  display: none;
-}
-
-.bottom{
- display: none;
-}
-
 .full-width{
     margin-left: -5.9vw;
     margin-top: 8vw;
@@ -105,7 +97,7 @@ margin-inline-end: 0px;
 
 .main-header {
 height: auto;
-margin-top:20%;
+/* margin-top:20%; */
 align-items:right;
 width: 90%;
 }
@@ -181,7 +173,7 @@ footer{
 h1{
 font-style: normal;
 font-weight: 700;
-font-size: 72px;
+font-size: 66px;
 margin-bottom: 25px;
 text-align:left;
 }
@@ -198,12 +190,17 @@ text-decoration: none !important;
 
 .header-text {
 width: 100%;
-margin-top: 80%;
+/* margin-top: 20%; */
 margin-bottom: 20%;
 }
 
+.landing {
+  margin-top: 70%;
+  margin-bottom: 50%;
+}
+
 .header-text h1{
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .navbar {
@@ -251,7 +248,7 @@ font-family: 'HKGrotesk', sans-serif;
 font-style: normal;
 color: #637381;
 font-weight: normal;
-font-size: 30px!important;
+font-size: 24px!important;
 line-height: 30px;
 /* max-width:90%; */
 text-align: left;
