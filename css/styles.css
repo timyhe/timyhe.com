@@ -24,11 +24,10 @@ html{
 }
 
 @font-face {
-  font-family: 'Souvenir';
-  src: url("./Souvenir.woff") format('woff');
-
-      font-weight: bold;
-      font-style: normal;
+  font-family: Clearface;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Clearface-Bold.otf'); 
 }
 
 .content-wrapper {
@@ -43,7 +42,7 @@ html{
 }
 
 body {
-  font-family: 'Souvenir', serif;
+  font-family: 'Clearface', serif;
   background-color: rgb(255, 255, 255);
   color: #000;
 }
@@ -168,6 +167,7 @@ h1:hover{
 }
 
 .header-text {
+  line-height: 55px;
   width: auto;
   top: 10%;
 }

@@ -20,11 +20,10 @@ html{
 }
 
 @font-face {
-  font-family: 'Souvenir';
-  src: url("./Souvenir.woff") format('woff');
-
-      font-weight: bold;
-      font-style: normal;
+  font-family: Clearface;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Clearface-Bold.otf'); 
 }
 
 @font-face {
@@ -63,7 +62,7 @@ html{
 }
 
 body {
-font-family: 'Souvenir', serif;
+font-family: 'Clearface', serif;
 /* color: #323232; */
 width:100%!important;
 background-color: rgb(255, 255, 255);
@@ -238,7 +237,7 @@ color: #637381;
 font-style: normal;
 font-weight: normal;
 font-size:36px;
-line-height: 48px;
+line-height: 55px;
 text-align: left;
 max-width:90%;
 }
@@ -381,7 +380,7 @@ padding-left: 30px;
 .yeehaw{
   /* line-height: 0; */
   display: inline-block;
-  font-size: 24px !important;
+  font-size: 28px !important;
 }
 
 .yeehaw:hover span{
