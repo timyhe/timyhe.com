@@ -10,16 +10,6 @@ html{
 
 
 @font-face {
-  font-family: 'HKGrotesk';
-  src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
-       url('./HKGrotesk-SemiBold.woff') format('woff'),
-       url('./HKGrotesk-SemiBold.ttf') format('truetype');
-
-      font-weight: bold;
-      font-style: normal;
-}
-
-@font-face {
   font-family: 'Souvenir';
   src: url("./Souvenir.woff2") format('woff2');
 
@@ -28,10 +18,8 @@ html{
 }
 
 @font-face {
-  font-family: 'HKGrotesk';
-  src: url("./HKGrotesk-Regular.woff2") format('woff2'),
-       url('./HKGrotesk-Regular.woff') format('woff'),
-       url('./HKGrotesk-Regular.ttf') format('truetype');
+  font-family: 'Graphik';
+  src: url('./Graphik-Regular.woff') format('woff');
 
       font-weight: normal;
       font-style: normal;
@@ -143,7 +131,7 @@ font-size:36px;
 font-weight: bold;
 
 color: #637381;
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 }
 
 .links li{
@@ -153,7 +141,7 @@ float:right;
 font-weight:400;
 font: size 36px;
 
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 }
 
 .footerlinks li{
@@ -179,7 +167,7 @@ text-align:left;
 }
 
 span{
-  font-family: 'HKGrotesk';
+  font-family: 'Graphik';
   font-weight: normal;
   color: #637381;
 }
@@ -215,7 +203,7 @@ display: block;
 }
 
 .footer ul {
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 color: #637381;
 font-size: 16px;
 
@@ -233,7 +221,7 @@ overflow: hidden;
 }
 
 .about{
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 color: #637381;
 font-style: normal;
 font-weight: normal;
@@ -244,7 +232,7 @@ max-width:90%;
 }
 
 .aboot{
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 font-style: normal;
 color: #637381;
 font-weight: normal;
@@ -257,7 +245,7 @@ margin: 0;
 }
 
 .abooot{
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 color: #637381;
 font-style: normal;
 font-weight: normal;
@@ -322,7 +310,7 @@ font-weight: 400;
 }
 
 .descrip {
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 color: #637381;
 
 font-weight: 300;
@@ -359,12 +347,12 @@ display: inherit;
 .l-text{
 font-size: 18px;
 color: #323232;
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 }
 
 .ll-text{
 font-size: 18px;
-font-family: 'HKGrotesk', sans-serif;
+font-family: 'Graphik', sans-serif;
 
 cursor: default;
 }
