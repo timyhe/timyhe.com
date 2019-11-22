@@ -45,7 +45,9 @@ html{
 body {
   font-family: 'Souvenir', serif;
   background-color: rgb(255, 255, 255);
+  letter-spacing: 0.025vw;
   color: #000;
+  letter-spacing: 0.025vw;
 }
 
 a{
@@ -89,7 +91,8 @@ span{
   font-size: 16px;
   display: inline-block;
   margin-bottom: 1rem;
-  color: #696969;
+  letter-spacing: 0.025vw;
+  color: #454F5B;
   /* vertical-align: 100%; */
 }
 
@@ -125,9 +128,10 @@ a:active { text-decoration: none; color: #F49342}
   margin-top:20px;
   font-size:16px;
   font-weight: bold;
+  letter-spacing: 0.025vw;
   
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
 }
 
 .links li{
@@ -136,9 +140,10 @@ a:active { text-decoration: none; color: #F49342}
   float:right;
 	font-weight:400;
   font-size:16px;
+  letter-spacing: 0.025vw;
   
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
 }
 
 .footerlinks li{
@@ -192,7 +197,7 @@ h1:hover{
 
 .footer ul {
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
   font-size: 16px !important;
 
   list-style-type: none;
@@ -210,37 +215,38 @@ h1:hover{
 
 .about{
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   text-align: left;
   max-width:66%;
+  letter-spacing: 0.025vw;
 }
 
 .aboot{
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   text-align: left;
-
+  letter-spacing: 0.025vw;
   margin: 0;
 }
 
 .abooot{
   font-family: 'HKGrotesk', sans-serif;
-  color: #696969;
+  color: #454F5B;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   max-width:75%;
   text-align: left;
-
+  letter-spacing: 0.025vw;
   margin: 0;
 }
 
@@ -337,14 +343,6 @@ h1:hover{
   color:#5f5f5f;
 }
 
-.detail {
-  animation: arrowDetail 8s infinite ease;
-  cursor: pointer;
-  display: inline-block;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-
 .headerimage{
   position: relative;
     max-width: 90%;
@@ -385,7 +383,7 @@ h1:hover{
 
 .l-text{
   font-size: 18px;
-  color: #323232;
+  letter-spacing: 0.025vw;
   font-family: 'HKGrotesk', sans-serif;
 }
 
