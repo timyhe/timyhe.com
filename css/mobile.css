@@ -10,6 +10,16 @@ html{
 
 
 @font-face {
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
+       url('./HKGrotesk-SemiBold.woff') format('woff'),
+       url('./HKGrotesk-SemiBold.ttf') format('truetype');
+
+      font-weight: bold;
+      font-style: normal;
+}
+
+@font-face {
   font-family: 'Souvenir';
   src: url("./Souvenir.woff2") format('woff2');
 
@@ -18,8 +28,10 @@ html{
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('./Graphik-Regular.woff') format('woff');
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-Regular.woff2") format('woff2'),
+       url('./HKGrotesk-Regular.woff') format('woff'),
+       url('./HKGrotesk-Regular.ttf') format('truetype');
 
       font-weight: normal;
       font-style: normal;
@@ -93,7 +105,7 @@ width: 90%;
 .main-headerabout {
 height: auto;
 align-items:right;
-width: 90%;
+width: 95%;
 margin: 0;
 }
 
@@ -130,8 +142,7 @@ margin-top:20px;
 font-size:36px;
 font-weight: bold;
 
-color: #637381;
-font-family: 'Graphik', sans-serif;
+font-family: 'HKGrotesk', sans-serif;
 }
 
 .links li{
@@ -141,7 +152,7 @@ float:right;
 font-weight:400;
 font: size 36px;
 
-font-family: 'Graphik', sans-serif;
+font-family: 'HKGrotesk', sans-serif;
 }
 
 .footerlinks li{
@@ -167,9 +178,8 @@ text-align:left;
 }
 
 span{
-  font-family: 'Graphik';
+  font-family: 'HKGrotesk';
   font-weight: normal;
-  color: #637381;
 }
 
 h1:hover{
@@ -183,7 +193,7 @@ margin-bottom: 20%;
 }
 
 .landing {
-  margin-top: 70%;
+  margin-top: 50%;
   margin-bottom: 50%;
 }
 
@@ -203,8 +213,7 @@ display: block;
 }
 
 .footer ul {
-font-family: 'Graphik', sans-serif;
-color: #637381;
+font-family: 'HKGrotesk', sans-serif;
 font-size: 16px;
 
 list-style-type: none;
@@ -221,32 +230,29 @@ overflow: hidden;
 }
 
 .about{
-font-family: 'Graphik', sans-serif;
-color: #637381;
+font-family: 'HKGrotesk', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size:36px;
+font-size:30px;
 line-height: 55px;
 text-align: left;
-max-width:90%;
+max-width:95%;
 }
 
 .aboot{
-font-family: 'Graphik', sans-serif;
+font-family: 'HKGrotesk', sans-serif;
 font-style: normal;
-color: #637381;
 font-weight: normal;
 font-size: 24px!important;
-line-height: 30px;
+line-height: 35px;
 /* max-width:90%; */
 text-align: left;
 
-margin: 0;
+margin-top: 0;
 }
 
 .abooot{
-font-family: 'Graphik', sans-serif;
-color: #637381;
+font-family: 'HKGrotesk', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -310,8 +316,7 @@ font-weight: 400;
 }
 
 .descrip {
-font-family: 'Graphik', sans-serif;
-color: #637381;
+font-family: 'HKGrotesk', sans-serif;
 
 font-weight: 300;
 font-size: 16px;
@@ -346,13 +351,13 @@ display: inherit;
 
 .l-text{
 font-size: 18px;
-color: #323232;
-font-family: 'Graphik', sans-serif;
+color: #141414;
+font-family: 'HKGrotesk', sans-serif;
 }
 
 .ll-text{
 font-size: 18px;
-font-family: 'Graphik', sans-serif;
+font-family: 'HKGrotesk', sans-serif;
 
 cursor: default;
 }

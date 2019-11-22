@@ -4,10 +4,22 @@ html{
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('./Graphik-Regular.woff') format('woff');
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-Regular.woff2") format('woff2'),
+       url('./HKGrotesk-Regular.woff') format('woff'),
+       url('./HKGrotesk-Regular.ttf') format('truetype');
 
       font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
+       url('./HKGrotesk-SemiBold.woff') format('woff'),
+       url('./HKGrotesk-SemiBold.ttf') format('truetype');
+
+      font-weight: bold;
       font-style: normal;
 }
 
@@ -35,6 +47,7 @@ body {
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
+  letter-spacing: 0.025vw;
 }
 
 a{
@@ -73,7 +86,7 @@ main {
   width: 90%;
 }
 span{
-  font-family: 'Graphik';
+  font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 16px;
   display: inline-block;
@@ -117,7 +130,7 @@ a:active { text-decoration: none; color: #F49342}
   font-weight: bold;
   letter-spacing: 0.025vw;
   
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
 }
 
@@ -129,7 +142,7 @@ a:active { text-decoration: none; color: #F49342}
   font-size:16px;
   letter-spacing: 0.025vw;
   
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
 }
 
@@ -183,7 +196,7 @@ h1:hover{
 }
 
 .footer ul {
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
   font-size: 16px !important;
 
@@ -201,7 +214,7 @@ h1:hover{
 }
 
 .about{
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
   font-style: normal;
   font-weight: normal;
@@ -213,7 +226,7 @@ h1:hover{
 }
 
 .aboot{
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
   font-style: normal;
   font-weight: normal;
@@ -225,7 +238,7 @@ h1:hover{
 }
 
 .abooot{
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   color: #141414;
   font-style: normal;
   font-weight: normal;
@@ -303,7 +316,7 @@ h1:hover{
 }
 
 .descrip {
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
 
   font-weight: 300;
   font-size: 16px;
@@ -370,14 +383,14 @@ h1:hover{
 
 .l-text{
   font-size: 18px;
-  letter-spacing: 0.025vw;
   color: #141414;
-  font-family: 'Graphik', sans-serif;
+  letter-spacing: 0.025vw;
+  font-family: 'HKGrotesk', sans-serif;
 }
 
 .ll-text{
   font-size: 18px;
-  font-family: 'Graphik', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   cursor: default;
 }
 
