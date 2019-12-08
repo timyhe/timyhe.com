@@ -36,14 +36,21 @@ html{
     padding-left: 15.5%;
     padding-right: 8.5%;
     padding-bottom: 100px;
-    /* position: absolute; */
-    /* display: flex;
-    flex-direction: column; */
-    justify-content: right;
+}
+
+.content-wrapperabout {
+  margin-top: 12%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-evenly;
+  padding-bottom: 100px;
 }
 
 body {
-  font-family: 'Souvenir', serif;
+  font-family: 'Spectral', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -76,16 +83,16 @@ main {
 
 .main-header {
   height: auto;
-  margin-top:15%;
+  margin-top:23%;
   width: 90%;
 }
 
 .main-headerabout {
-  height: auto;
-  align-items:right;
   width: 90%;
+  padding-left: 100px;
 }
-span{
+
+/* span{
   font-family: 'HKGrotesk';
   font-weight: normal;
   font-size: 16px;
@@ -93,8 +100,7 @@ span{
   margin-bottom: 1rem;
   letter-spacing: 0.025vw;
   color: #141414;
-  /* vertical-align: 100%; */
-}
+} */
 
 a:hover { text-decoration: none; color: #F49342}
 a:visited { text-decoration: none;}
@@ -102,16 +108,15 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 13%;
-  width: 90%;
+  margin-top: 26%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
 .rectangle {
   position: relative;
-    margin-top: 5%;
     max-width: 30%;
-    max-height:10%;
+    height:10%;
 }
 
 .rectangle img{
@@ -162,8 +167,8 @@ footer{
 
 h1{
   font-style: normal;
-  font-weight: 600;
-  font-size: 3rem;
+  font-weight: 400;
+  font-size: 2.5rem;
   letter-spacing: 1px;
   text-align:left;
   line-height: 130%;
@@ -176,8 +181,24 @@ h1:hover{
 
 .header-text {
   line-height: 55px;
-  width: auto;
-  top: 10%;
+  display: inline-block;
+  width: 70%;
+  top: 20%;
+}
+
+.hoverimage{
+  display: none
+}
+
+span:hover + .hoverimage{
+  display: block;
+}
+
+.hovertext {
+  font-style: inherit;
+  font-weight: inherit;
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 .bottom{
@@ -245,7 +266,6 @@ h1:hover{
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  max-width:75%;
   text-align: left;
   letter-spacing: 0.025vw;
   margin: 0;
@@ -383,14 +403,14 @@ h1:hover{
 }
 
 .l-text{
-  font-size: 18px;
+  font-size: 16px;
   color: #141414;
   letter-spacing: 0.025vw;
   font-family: 'HKGrotesk', sans-serif;
 }
 
 .ll-text{
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'HKGrotesk', sans-serif;
   cursor: default;
 }
@@ -410,3 +430,17 @@ h1:hover{
 }
 
 .yeehaw:hover:before {content:"天"}
+
+.hoverimage {
+  position: fixed;
+  top: 5%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 56vw;
+    height: 56vh;
+}

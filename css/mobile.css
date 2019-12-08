@@ -63,7 +63,7 @@ html{
 }
 
 body {
-font-family: 'Souvenir', serif;
+font-family: 'Spectral', serif;
 /* color: #323232; */
 width:100%!important;
 background-color: rgb(255, 255, 255);
@@ -175,11 +175,6 @@ font-weight: 700;
 font-size: 66px;
 margin-bottom: 25px;
 text-align:left;
-}
-
-span{
-  font-family: 'HKGrotesk';
-  font-weight: normal;
 }
 
 h1:hover{
@@ -391,4 +386,12 @@ padding-left: 30px;
 
 h2{
   font-size: 48px;
+}
+
+.hoverimage{
+  display: none
+}
+
+span:hover + .hoverimage{
+  display: block;
 }
