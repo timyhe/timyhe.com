@@ -24,8 +24,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Souvenir';
-  src: url("./Souvenir.woff2") format('woff2');
+  font-family: 'Tiempos';
+  src: url("./TiemposHeadline-Light.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -50,7 +50,7 @@ html{
 }
 
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Tiempos', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -167,9 +167,8 @@ footer{
 
 h1{
   font-style: normal;
-  font-weight: 300;
   font-size: 2.5rem;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   text-align:left;
   line-height: 130%;
   color: #000;
