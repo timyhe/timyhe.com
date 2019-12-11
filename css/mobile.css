@@ -20,8 +20,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Souvenir';
-  src: url("./Souvenir.woff2") format('woff2');
+  font-family: 'Tiempos';
+  src: url("./TiemposTextWeb-Regular.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -63,7 +63,7 @@ html{
 }
 
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Crimson Text', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
