@@ -20,8 +20,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Tiempos';
-  src: url("./TiemposTextWeb-Regular.woff") format('woff');
+  font-family: 'Caslon';
+  src: url("./big-caslon-medium.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
