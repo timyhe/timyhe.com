@@ -108,7 +108,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 5%;
+  margin-top: 8%;
   width: 100%;
   margin-bottom: 100px;
 }
@@ -407,6 +407,7 @@ span:hover + .hoverimage{
   font-size: 16px;
   color: #141414;
   letter-spacing: 0.025vw;
+  opacity: 1;
   font-family: 'HKGrotesk', sans-serif;
 }
 
@@ -414,6 +415,8 @@ span:hover + .hoverimage{
   font-size: 16px;
   font-family: 'HKGrotesk', sans-serif;
   cursor: default;
+  letter-spacing: 0.025vw;
+  opacity: 1;
 }
 
 .r-text{
