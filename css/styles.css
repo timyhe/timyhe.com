@@ -65,6 +65,7 @@ a{
 .headomobile{
   font-size: 24px !important;
   margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 main {
@@ -83,7 +84,7 @@ main {
 
 .main-header {
   height: auto;
-  margin-top:20%;
+  margin-top:25%;
   width: 90%;
 }
 
@@ -108,9 +109,10 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 8%;
+  margin-top: 3%;
   width: 100%;
   margin-bottom: 100px;
+  position: fixed;
 }
 
 .rectangle {
@@ -168,7 +170,7 @@ footer{
 h1{
   font-style: normal;
   font-weight: 200;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 0px;
   text-align:left;
   line-height: 130%;
@@ -388,12 +390,12 @@ span:hover + .hoverimage{
 }
 
 .left{
-  margin: 16px 40px 60px 0px;
+  margin: 26px 40px 20px 0px;
   background-color:#fff;
 }
 
 .right{
-  margin: 16px 0px 60px 40px;
+  margin: 26px 0px 20px 40px;
   background-color:#fff;
 }
 
