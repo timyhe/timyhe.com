@@ -191,7 +191,7 @@ h1:hover{
 .hoverimage{
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.1s linear;
 }
 
 span:hover + .hoverimage{
