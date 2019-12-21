@@ -20,8 +20,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Plantin';
-  src: url("./plantin.woff") format('woff');
+  font-family: 'Freight';
+  src: url("./freight-text-pro.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -63,7 +63,7 @@ html{
 }
 
 body {
-  font-family: 'Plantin', serif;
+  font-family: 'Freight', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
