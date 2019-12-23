@@ -24,8 +24,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Freight';
-  src: url("./freight-text-pro.woff") format('woff');
+  font-family: 'Miller';
+  src: url("./Portrait-Regular-Web.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -50,7 +50,7 @@ html{
 }
 
 body {
-  font-family: 'Freight', serif;
+  font-family: 'Miller', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -84,8 +84,8 @@ main {
 
 .main-header {
   height: auto;
-  margin-top:14%;
-  width: 90%;
+  margin-top:15%;
+  width: 85%;
 }
 
 .main-headerabout {
@@ -260,7 +260,7 @@ span:hover + .hoverimage{
   font-size: 16px;
   line-height: 28px;
   text-align: left;
-  max-width:66%;
+  max-width:70%;
   letter-spacing: 0.025vw;
 }
 
@@ -454,8 +454,8 @@ span:hover + .hoverimage{
 
 .hoverimage {
     position: fixed;
-    top: 0%;
-    left:100%;
+    margin-left: 180px;
+    margin-bottom: 250px;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
