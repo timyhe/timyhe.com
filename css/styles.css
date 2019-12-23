@@ -24,8 +24,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Minion';
-  src: url("./minionpro-regular-webfont.woff") format('woff');
+  font-family: 'Canela';
+  src: url("./CanelaText-Light-Web-78747f833cd00205d8796a22f07d34f5.woff2") format('woff2');
 
       font-weight: bold;
       font-style: normal;
@@ -50,7 +50,7 @@ html{
 }
 
 body {
-  font-family: 'Minion';
+  font-family: 'Canela';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -85,7 +85,7 @@ main {
 .main-header {
   height: auto;
   margin-top:15%;
-  width: 90%;
+  width: 92%;
 }
 
 .main-headerabout {
@@ -170,7 +170,7 @@ footer{
 h1{
   font-style: bold;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.8rem;
   letter-spacing: 0px;
   text-align:left;
   line-height: 130%;
