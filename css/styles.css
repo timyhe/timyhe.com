@@ -24,7 +24,7 @@ html{
 }
 
 @font-face {
-  font-family: 'Miller';
+  font-family: 'Portrait';
   src: url("./Portrait-Regular-Web.woff") format('woff');
 
       font-weight: bold;
@@ -50,7 +50,7 @@ html{
 }
 
 body {
-  font-family: 'Miller', serif;
+  font-family: 'Portrait', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;

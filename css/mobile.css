@@ -20,8 +20,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Freight';
-  src: url("./freight-text-pro.woff") format('woff');
+  font-family: 'Portrait';
+  src: url("./Portrait-Regular-Web.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -63,7 +63,7 @@ html{
 }
 
 body {
-  font-family: 'Freight', serif;
+  font-family: 'Portrait', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
