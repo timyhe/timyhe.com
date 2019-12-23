@@ -20,8 +20,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Portrait';
-  src: url("./Portrait-Regular-Web.woff") format('woff');
+  font-family: 'Freight';
+  src: url("./freight-text-pro.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -55,7 +55,7 @@ html{
 
 .content-wrapper {
   height: auto;
-  padding-left: 5.5%;
+  padding-left: 8.5%;
   padding-right: 5.5%;
   padding-bottom: 100px;
   width:100%;
@@ -63,7 +63,7 @@ html{
 }
 
 body {
-  font-family: 'Portrait', serif;
+  font-family: 'Freight', serif;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -99,7 +99,7 @@ margin-inline-end: 0px;
 height: auto;
 /* margin-top:20%; */
 align-items:right;
-width: 90%;
+width: 95%;
 }
 
 .main-headerabout {

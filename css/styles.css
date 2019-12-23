@@ -24,8 +24,8 @@ html{
 }
 
 @font-face {
-  font-family: 'Portrait';
-  src: url("./Portrait-Regular-Web.woff") format('woff');
+  font-family: 'Freight';
+  src: url("./minionpro-regular-webfont.woff") format('woff');
 
       font-weight: bold;
       font-style: normal;
@@ -50,7 +50,7 @@ html{
 }
 
 body {
-  font-family: 'Portrait', serif;
+  font-family: 'Freight';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -168,8 +168,8 @@ footer{
 }
 
 h1{
-  font-style: normal;
-  font-weight: 200;
+  font-style: bold;
+  font-weight: 700;
   font-size: 3rem;
   letter-spacing: 0px;
   text-align:left;
