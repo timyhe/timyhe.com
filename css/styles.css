@@ -454,8 +454,8 @@ span:hover + .hoverimage{
 
 .hoverimage {
     position: fixed;
-    margin-left: 180px;
-    margin-bottom: 250px;
+    margin-left: 140px;
+    padding-bottom: 120px;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
