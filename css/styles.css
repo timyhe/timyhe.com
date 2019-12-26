@@ -27,8 +27,20 @@ html{
   font-family: 'Canela';
   src: url("./CanelaText-Light-Web-78747f833cd00205d8796a22f07d34f5.woff2") format('woff2');
 
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url("./Canela-Medium.woff") format('woff');
+
       font-weight: bold;
       font-style: normal;
+}
+
+.tim{
+  font-weight: normal !important;
 }
 
 .content-wrapper {
@@ -184,9 +196,9 @@ h1:hover{
 .header-text {
   line-height: 55px;
   display: inline-block;
-  width: 70%;
+  width: 65%;
   top: 20%;
-  margin-left: 15%;
+  margin-left: 19%;
 }
 
 .header-textabout {
