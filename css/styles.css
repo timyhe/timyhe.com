@@ -196,9 +196,9 @@ h1:hover{
 .header-text {
   line-height: 55px;
   display: inline-block;
-  width: 65%;
+  width: 62%;
   top: 20%;
-  margin-left: 19%;
+  /* margin-left: 19%; */
 }
 
 .header-textabout {
@@ -465,6 +465,8 @@ span:hover + .hoverimage{
 
 .hoverimage {
     position: fixed;
+    left: 70%;
+    top: 65%;
     margin-left: 140px;
     padding-bottom: 120px;
     transform: translate(-50%, -50%);
