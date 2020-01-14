@@ -22,22 +22,6 @@ html{
       font-style: normal;
 }
 
-@font-face {
-  font-family: 'Canela';
-  src: url("./CanelaText-Light-Web-78747f833cd00205d8796a22f07d34f5.woff2") format('woff2');
-
-      font-weight: normal;
-      font-style: normal;
-}
-
-@font-face {
-  font-family: 'Canela';
-  src: url("./Canela-Medium.woff") format('woff');
-
-      font-weight: bold;
-      font-style: normal;
-}
-
 .tim{
   font-weight: normal !important;
 }
@@ -61,7 +45,7 @@ html{
 }
 
 body {
-  font-family: 'Canela';
+  font-family: 'Cardo';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -195,7 +179,7 @@ h1:hover{
 .header-text {
   line-height: 55px;
   display: inline-block;
-  width: 62%;
+  width: 69%;
   top: 20%;
   /* margin-left: 19%; */
 }
@@ -464,7 +448,7 @@ span:hover + .hoverimage{
 
 .hoverimage {
     position: fixed;
-    left: 70%;
+    left: 75%;
     top: 65%;
     margin-left: 140px;
     padding-bottom: 120px;
