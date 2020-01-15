@@ -165,7 +165,7 @@ footer{
 h1{
   font-style: bold;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.8em;
   letter-spacing: 0px;
   text-align:left;
   line-height: 130%;
@@ -179,7 +179,7 @@ h1:hover{
 .header-text {
   line-height: 55px;
   display: inline-block;
-  width: 69%;
+  width: 70%;
   top: 20%;
   /* margin-left: 19%; */
 }
@@ -449,7 +449,7 @@ span:hover + .hoverimage{
 .hoverimage {
     position: fixed;
     left: 75%;
-    top: 65%;
+    top: 50%;
     margin-left: 140px;
     padding-bottom: 120px;
     transform: translate(-50%, -50%);
