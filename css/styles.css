@@ -79,7 +79,7 @@ main {
 
 .main-header {
   height: auto;
-  text-align: center;
+  /* text-align: center; */
   margin-top:15%;
   width: 92%;
 }
@@ -449,8 +449,8 @@ span:hover + .hoverimage{
 
 .hoverimage {
     position: fixed;
-    /* left: 75%;
-    top: 48%; */
+    left: 75%;
+    top: 70%;
     margin-left: 140px;
     padding-bottom: 120px;
     transform: translate(-50%, -50%);
