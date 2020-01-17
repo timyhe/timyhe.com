@@ -35,7 +35,7 @@ html{
 }
 
 .content-wrapperabout {
-  margin-top: 12%;
+  margin-top: 20%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -106,7 +106,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 15%;
+  margin-top: 5%;
   width: 100%;
   margin-bottom: 100px;
   position: fixed;
