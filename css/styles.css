@@ -1,6 +1,6 @@
 html{
   scroll-behavior: smooth;
-  overflow-y: scroll;
+  height: 100%
 }
 
 @font-face {
@@ -46,6 +46,7 @@ html{
 }
 
 body {
+  overflow-y: auto;
   font-family: 'Cardo';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
@@ -81,7 +82,7 @@ main {
 .main-header {
   height: auto;
   /* text-align: center; */
-  margin-top:20%;
+  margin-top:22%;
   width: 92%;
 }
 
@@ -106,7 +107,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   width: 100%;
   margin-bottom: 100px;
   position: fixed;
