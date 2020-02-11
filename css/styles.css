@@ -92,16 +92,6 @@ main {
   padding-left: 100px;
 }
 
-/* span{
-  font-family: 'HKGrotesk';
-  font-weight: normal;
-  font-size: 16px;
-  display: inline-block;
-  margin-bottom: 1rem;
-  letter-spacing: 0.025vw;
-  color: #141414;
-} */
-
 a:hover { text-decoration: none; border-bottom: 1px #F49342; color: #F49342}
 a:visited { text-decoration: none;}
 a:focus { text-decoration: none; color: #F49342}
@@ -173,6 +163,7 @@ h1{
   text-align:left;
   line-height: 130%;
   color: #000;
+  margin: 0;
 }
 
 h1:hover{
