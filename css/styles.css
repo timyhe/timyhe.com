@@ -1,6 +1,5 @@
 html{
   scroll-behavior: smooth;
-  height: 100%
 }
 
 @font-face {
@@ -116,7 +115,7 @@ a:active { text-decoration: none; color: #F49342}
 }
 
 .rectangle {
-  position: relative;
+    position: relative;
     max-width: 30%;
     height:10%;
 }
@@ -390,7 +389,7 @@ span:hover + .hoverimage{
 
 .full-width{
     margin-top: 3vw;
-    margin-left: -34.1%;
+    margin-left: -35%;
     width: 100vw;
     height: auto;
     padding-bottom: 25px;
