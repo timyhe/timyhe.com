@@ -47,7 +47,7 @@ html{
 
 body {
   overflow-y: auto;
-  font-family: 'Source Serif Pro';
+  font-family: 'Cardo';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
   color: #000;
@@ -83,7 +83,7 @@ main {
   height: auto;
   /* text-align: center; */
   margin-top:22%;
-  width: 92%;
+  width: 90%;
 }
 
 .main-headerabout {
@@ -107,7 +107,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  /* margin-top: 5%; */
+  margin-top: 10%;
   width: 100%;
   margin-bottom: 100px;
   position: fixed;
@@ -166,8 +166,8 @@ footer{
 }
 
 h1{
-  font-size: 2.3vw;
-  font-weight: 400;
+  font-size: 1.9vw;
+  font-weight: 300;
   letter-spacing: 0px;
   text-align:left;
   line-height: 130%;
