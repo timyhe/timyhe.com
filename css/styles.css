@@ -27,6 +27,32 @@ html{
   vertical-align: middle;
 }
 
+.epic1 {
+  border-width: 2px;
+  border-color: #F49342;
+  border-bottom-style: solid;
+  border-spacing: 1px;
+  display: inline-block;
+  height: 1.1em;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+  box-sizing: border-box;
+}
+
+.epic {
+  border-width: 1.5px;
+  border-color: #F49342;
+  border-bottom-style: solid;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
 .content-wrapper {
     height: auto;
     padding-left: 20.5vw;
