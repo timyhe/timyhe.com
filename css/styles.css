@@ -28,17 +28,10 @@ html{
 }
 
 .epic1 {
-  border-width: 2px;
-  border-color: #F49342;
-  border-bottom-style: solid;
+  border-bottom: 20px solid rgba(244, 146, 66, 0.322);
   border-spacing: 1px;
   display: inline-block;
   height: 1.1em;
-  text-shadow:
-    2px 2px white,
-    2px -2px white,
-    -2px 2px white,
-    -2px -2px white;
   box-sizing: border-box;
 }
 
