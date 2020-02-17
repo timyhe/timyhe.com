@@ -46,7 +46,7 @@ html{
 
 .top-case{
   vertical-align: middle;
-  margin-top: 10em;
+  margin-top: 30em;
   margin-bottom: 2em;
 }
 
@@ -68,6 +68,14 @@ html{
   
   /* Then we define how is distributed the remaining space */
   justify-content: space-evenly;
+}
+
+.content-wrapperaboutmob {
+  padding-top: 12%;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  max-width: 1250px;
 }
 
 body {
