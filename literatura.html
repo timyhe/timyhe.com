@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cardo:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+  <link href="css/zoom.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <title>Tim He | literatura</title>
 </head>
@@ -42,7 +43,7 @@
           <span class="about"><b>Project Type:</b> Personal Project &nbsp;&nbsp;&nbsp;&nbsp; <b>Timeline:</b> Winter 2019 &nbsp;&nbsp;&nbsp;&nbsp; <b>Tools:</b> Figma, Marvel</span>
         </div></br>
       </div>
-        <img class="full-width animated fadeInUp delay-0.1s" src="images/literaturalarge.png">
+        <img class="full-width animated fadeInUp delay-0.1s" data-action="zoom" src="images/literaturalarge.png">
     <div class="content-wrapper">
         <div class="animated fadeInUp delay-0.2s">
         <br><h2>Problem</h2>
@@ -54,7 +55,7 @@
           Despite increased accessibility to these books, the interest in them has been declining. This decline can have
           severe impacts on a young person's ability to comprehend
           the world around them, think critically and become involved in society.<br><br>
-          <img class="headerimage" src="images/painpoints.png">
+          <img class="headerimage" data-action="zoom" src="images/painpoints.png">
         </div></br></br>
         <h2>User Research</h2>
         <div class="about">
@@ -93,7 +94,7 @@
           including screens for information on books/authors (to inform) and screens for quizzes (to gamify and provide
           instant gratification).
           I got too excited and created some high-fidelity mock-ups right away in Figma, as seen below:<br><br>
-          <img class="headerimage" src="images/literaturav1.jpeg">
+          <img class="headerimage" data-action="zoom" src="images/literaturav1.jpeg">
           <div class="caption-container">Ill-advised first attempt at mock-ups in Figma</div>
           <br>In hindsight, I was too hasty. I dove headfirst into Android Studio and started developing. While doing
           so, the lack of further planning and iterations
@@ -101,7 +102,7 @@
           wireframes, along with a user flow diagram, and added the
           ability to "favourite" books, as an encouragement of sorts to actually go and read the book in the
           future.<br><br>
-          <img class="headerimage" src="images/literaturawireframes.jpg">
+          <img class="headerimage" data-action="zoom" src="images/literaturawireframes.jpg">
           <div class="caption-container">Initial UI concept and flow on paper</div><br>
         </div>
         <h2>Style Guide</h2>
@@ -114,14 +115,14 @@
           and colors
           create a cozy, vintage, time-honored feel. During the quiz, the user will get alerts, which should be exciting
           and gratifying, but muted enough to fit in with the rest of the colors.<br><br>
-          <img class="headerimage" src="images/literaturastyleguide.jpeg">
+          <img class="headerimage" data-action="zoom" src="images/literaturastyleguide.jpeg">
           <div class="caption-container">Style guide used to aid with consistency</div><br>
         </div>
         <h2>Final Design</h2>
         <div class="about">
           I created a high fidelity prototype using Figma, then used Marvel to further communicate animations and user
           flow.<br><br>
-          <img class="headerimage" src="images/literaturav2.png">
+          <img class="headerimage" data-action="zoom" src="images/literaturav2.png">
           <div class="caption-container">Screens made with Figma</div><br>
           <iframe src="https://marvelapp.com/3c4jhdh?emb=1&iosapp=false&frameless=false" width="453" height="864" allowTransparency="true" frameborder="0"></iframe>
           <div class="caption-container">Prototype in Marvel</div>
@@ -149,4 +150,7 @@
       </div>
     </div>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/zoom.js"></script>
+  <script src="js/transition.js"></script>
 </body>

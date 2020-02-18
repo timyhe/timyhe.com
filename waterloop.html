@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cardo:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+  <link href="css/zoom.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <title>Tim He | Waterloop</title>
 </head>
@@ -40,7 +41,7 @@
                 <span class="about"><b>Role:</b> Web Designer &nbsp;&nbsp;&nbsp;&nbsp; <b>Timeline:</b> Summer 2019 &nbsp;&nbsp;&nbsp;&nbsp; <b>Tools:</b> Figma</span>
         </div>
       </div>
-    <img class="full-width animated fadeInUp delay-0.1s" src="images/waterlooplarge.png">
+    <img class="full-width animated fadeInUp delay-0.1s" data-action="zoom" src="images/waterlooplarge.png">
     <div class="content-wrapper">
         <div class="animated fadeInUp delay-0.2s">
         </br></br>
@@ -49,7 +50,7 @@
                 The team's marketing website hadn't been updated in a while, and its age brought about a multitude of problems, including a lack of mobile responsiveness. 
                 In the Summer of 2019, the marketing team decided it'd be a good idea to refresh and rebrand the site, as an attempt to fix the above issues. By doing this, they hoped to attract more sponsors and new recruits to Waterloop. 
                 As part of the web design team, <a class="epic" href="https://www.erin-ly.com/">Erin</a> and I were tasked with spearheading the redesign, alongside 4 developers (using the power of Vue.js to help with the mobile-responsiveness).<br><br>
-          <img class="headerimage" src="images/69635134_1035164066686252_5078865223419428864_o.jpg">
+          <img class="headerimage" data-action="zoom" src="images/69635134_1035164066686252_5078865223419428864_o.jpg">
           <div class="caption-container">The Waterloop team for Summer 2019</div>
         </div></br></br>
         <h2>Restructuring the Layout</h2>
@@ -62,7 +63,7 @@
                 When considering the layout of the homepage, 
                 we wanted to draw attention to some assets/animations of the pod itself, 
                 the main draw of Waterloop, along with the idea/vision of being able to travel "from Toronto to Montreal in 30 minutes" without explicitly stating it.<br>
-            <br><img class="headerimage" src="images/oldnew.png">
+            <br><img class="headerimage" data-action="zoom" src="images/oldnew.png">
             <div class="caption-container">The original homepage on the left. One of my iterations (following the style guide) on the right.</div>
         </div></br><br>
         <h2>Rebranding "Canada's Hyperloop"</h2>
@@ -72,7 +73,7 @@
                 In other words, I asked them for keywords to describe Waterloop. Through surveying, I found a couple of keywords, which included: playful, lively, innovative, bold, sleek, fast. 
                 Visually, I tried to unpack these words using a style guide. The style guide also gave us (designers) 
                 something to align on while creating our designs, and the developers a quick and easy reference while figuring out the front-end.<br><br>
-          <img class="headerimage" src="images/Style Guide.png">
+          <img class="headerimage" data-action="zoom" src="images/Style Guide.png">
           <div class="caption-container">The aforementioned style guide I created</div><br>
           We went through a couple of iterations for the homepage based on our wireframes and style guide. 
           Scrolling up, you'll see one of them, in which I tried to focus on the playful and lively aspects, again drawing attention
@@ -81,7 +82,7 @@
           A large part of this decision was to align with the "darker" marketing material being used for the team's <a href="https://www.instagram.com/team_waterloop/">social media</a> posts.
           (Another concern raised, that this iteration resolved: since the creation of the original site, many other Canadian Hyperloop design teams had been founded, therefore the 
           tagline "Canada's Hyperloop" was rendered a bit less effective.)<br><br>
-          <img class="headerimage" src="images/home copy.png">
+          <img class="headerimage" data-action="zoom" src="images/home copy.png">
           <div class="caption-container">The home screen we landed on</div><br>
         </div><br>
         <h2>Final Designs</h2>
@@ -90,7 +91,7 @@
                 Throughout the process, 
                 we worked closely with the marketing team, ensuring the content and copy of the site aligned with our intended tone and goals. 
                 Here are some final designs for those pages created by Erin and I.<br><br>
-          <img class="headerimage" src="images/waterloopscreens.png">
+          <img class="headerimage" data-action="zoom" src="images/waterloopscreens.png">
           <div class="caption-container">Various final screens</div><br>
         </div>
         <h2>Learnings and Next Steps</h2>
@@ -113,4 +114,7 @@
       </div>
     </div>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/zoom.js"></script>
+  <script src="js/transition.js"></script>
 </body>
