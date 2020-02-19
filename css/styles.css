@@ -1,4 +1,5 @@
 html{
+  overflow-y: auto;
   scroll-behavior: smooth;
 }
 
@@ -76,7 +77,6 @@ html{
 }
 
 body {
-  overflow-y: auto;
   font-family: 'Source Serif Pro';
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.025vw;
