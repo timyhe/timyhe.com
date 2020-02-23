@@ -62,7 +62,7 @@ html{
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   margin: auto;
   max-width: 1250px;
   
@@ -221,7 +221,7 @@ margin-bottom: 20%;
   margin-right: 5%;
   margin-top: 3%;
   width: 100%;
-  font-size:24px;
+  font-size:36px;
 }
 
 .footer {
