@@ -72,8 +72,9 @@ html{
   display: flex;
   flex-direction: row;
   width: 100%;
+  vertical-align: middle;
   margin: auto;
-  max-width: 1250px;
+  max-width: 1000px;
 }
 
 body {
