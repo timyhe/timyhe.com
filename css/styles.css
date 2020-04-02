@@ -23,18 +23,13 @@ html{
       font-style: normal;
 }
 
-.tim{
-  /* font-weight: normal !important; */
-  vertical-align: middle;
-}
-
-.epic1 {
+/* .epic1 {
   border-bottom: 20px solid rgba(244, 146, 66, 0.322);
   border-spacing: 1px;
   display: inline-block;
   height: 1.1em;
   box-sizing: border-box;
-}
+} */
 
 .epic {
   border-width: 1.5px;
@@ -54,7 +49,8 @@ html{
 }
 
 .content-wrapperabout {
-  padding-top: 12%;
+  padding-top: 5%;
+  padding-left: 8%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -78,11 +74,16 @@ html{
 }
 
 body {
-  font-family: 'Source Serif Pro';
-  background-color: rgb(255, 255, 255);
+  font-family: 'Cardo';
+  background-color: #FFF;
   letter-spacing: 0.025vw;
   color: #000;
   letter-spacing: 0.025vw;
+}
+
+.landing {
+  background-color: #000;
+  color: #fff;
 }
 
 a{
@@ -112,9 +113,8 @@ main {
 
 .main-header {
   height: auto;
-  text-align: center;
   justify-content: center;
-  width: 90%;
+  width: 60%;
 }
 
 .main-headerabout {
@@ -128,7 +128,7 @@ a:focus { text-decoration: none; color: #F49342}
 a:active { text-decoration: none; color: #F49342}
 
 .portfolio {
-  margin-top: 10%;
+  margin-top: 2%;
   width: 100%;
   margin-bottom: 100px;
   position: fixed;
@@ -155,9 +155,6 @@ a:active { text-decoration: none; color: #F49342}
   font-size:16px;
   font-weight: bold;
   letter-spacing: 0.025vw;
-  
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
 }
 
 .links li{
@@ -167,14 +164,10 @@ a:active { text-decoration: none; color: #F49342}
 	font-weight:400;
   font-size:16px;
   letter-spacing: 0.025vw;
-  
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
 }
 
 .footerlinks li{
   padding-left:48px;
-  margin-top:50px;
   float:left;
 	font-weight:400;
 	font-size:18px;
@@ -187,11 +180,10 @@ footer{
 }
 
 h1{
-  font-size: 2.7em;
+  font-size: 1.9em;
   font-weight: 400;
   text-align:left;
-  line-height: 130%;
-  color: #000;
+  line-height: 140%;
 }
 
 h1:hover{
@@ -251,8 +243,6 @@ span:hover + .hoverimage{
 }
 
 .footer ul {
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
   font-size: 16px !important;
 
   list-style-type: none;
@@ -269,8 +259,6 @@ span:hover + .hoverimage{
 }
 
 .about{
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -281,8 +269,6 @@ span:hover + .hoverimage{
 }
 
 .aboot{
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -293,8 +279,6 @@ span:hover + .hoverimage{
 }
 
 .abooot{
-  font-family: 'HKGrotesk', sans-serif;
-  color: #141414;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -370,7 +354,6 @@ span:hover + .hoverimage{
 }
 
 .descrip {
-  font-family: 'HKGrotesk', sans-serif;
 
   font-weight: 300;
   font-size: 16px;
@@ -448,16 +431,13 @@ iframe{
 
 .l-text{
   font-size: 16px;
-  color: #141414;
   letter-spacing: 0.025vw;
   opacity: 1;
   margin-bottom: 30px;
-  font-family: 'HKGrotesk', sans-serif;
 }
 
 .ll-text{
   font-size: 16px;
-  font-family: 'HKGrotesk', sans-serif;
   cursor: default;
   letter-spacing: 0.025vw;
   opacity: 1;
@@ -481,10 +461,8 @@ iframe{
 
 .hoverimage {
     position: fixed;
-    /* left: 0%;
-    top: -20%; */
-    margin-left: 8vw;
-    padding-bottom: 5vw;
+    left: 72%;
+    top: 78%;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
@@ -497,4 +475,6 @@ iframe{
 
 h2{
   font-weight: 400;
+  color: #a8a8a8;
+  padding-bottom: 1em;
 }
