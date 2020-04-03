@@ -174,10 +174,14 @@ footer{
 }
 
 h1{
-  font-size: 5em;
+  font-size: 5.5em;
   font-weight: 400;
   text-align:left;
   line-height: 130%;
+}
+
+.intro{
+  font-size: 4.5em !important;  
 }
 
 h1:hover{
@@ -224,7 +228,7 @@ span:hover + .hoverimage{
 
 .navbar {
   margin-left: 5%;
-  margin-top: 1%;
+  margin-top: 5%;
   width: 90%;
 }
 
@@ -237,7 +241,7 @@ span:hover + .hoverimage{
 }
 
 .footer ul {
-  font-size: 18px !important;
+  font-size: 12px !important;
 
   list-style-type: none;
   margin: 0;
@@ -477,6 +481,38 @@ iframe{
     justify-content: center;
     width: 56vw;
     height: 56vh;
+}
+
+.hoverimage1 {
+  position: fixed;
+  left: 50vw;
+  top: 12vh;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56vw;
+  height: 56vh;
+}
+
+.hoverimage1{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+span:hover + .hoverimage1{
+  visibility: visible;
+  opacity: 1;
+}
+
+.hovertext1 {
+  font-style: inherit;
+  font-weight: inherit;
+  pointer-events: auto;
+  cursor: default;
 }
 
 h2{
