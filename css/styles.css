@@ -49,7 +49,7 @@ html{
 }
 
 .content-wrapperabout {
-  padding-top: 4%;
+  padding-top: 2%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -82,7 +82,7 @@ body {
 }
 
 .landing {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -220,7 +220,25 @@ span:hover + .hoverimage{
   opacity: 1;
 }
 
+.hoverimage1{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+span:hover + .hoverimage1{
+  visibility: visible;
+  opacity: 1;
+}
+
 .hovertext {
+  font-style: inherit;
+  font-weight: inherit;
+  pointer-events: auto;
+  cursor: default;
+}
+
+.hovertext1 {
   font-style: inherit;
   font-weight: inherit;
   pointer-events: auto;
@@ -243,8 +261,8 @@ span:hover + .hoverimage{
   /* max-height: fit-content; */
   /* display: block; */
   font-size: 16px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .footer ul {
@@ -288,7 +306,7 @@ span:hover + .hoverimage{
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   text-align: left;
   letter-spacing: 0.025vw;
@@ -468,7 +486,7 @@ iframe{
 .hoverimage {
     position: fixed;
     left: 68vw;
-    top: 68vh;
+    top: 70vh;
     transform: translate(-50%, -50%);
     z-index: -1;
     pointer-events: none;
@@ -477,6 +495,20 @@ iframe{
     justify-content: center;
     width: 56vw;
     height: 56vh;
+}
+
+.hoverimage1 {
+  position: fixed;
+  left: 50vw;
+  top: 12vh;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56vw;
+  height: 56vh;
 }
 
 h2{
