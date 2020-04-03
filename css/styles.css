@@ -66,11 +66,9 @@ html{
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 100%;
-  vertical-align: middle;
+  width: 80%;
   margin: auto;
   max-width: 1000px;
-  justify-content: space-evenly;
 }
 
 body {
@@ -266,8 +264,8 @@ span:hover + .hoverimage1{
   /* max-height: fit-content; */
   /* display: block; */
   font-size: 16px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .footer ul {
@@ -491,7 +489,7 @@ iframe{
 .hoverimage {
     position: fixed;
     left: 68vw;
-    top: 64vh;
+    top: 62vh;
     transform: translate(-50%, -50%);
     z-index: -1;
     pointer-events: none;
