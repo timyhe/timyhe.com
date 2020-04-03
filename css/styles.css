@@ -55,7 +55,7 @@ html{
   flex-direction: row;
   width: 100%;
   margin: auto;
-  max-width: 1250px;
+  max-width: 1400px;
   
   /* Then we define how is distributed the remaining space */
   justify-content: space-evenly;
@@ -179,7 +179,7 @@ footer{
 }
 
 h1{
-  font-size: 1.9em;
+  font-size: 2em;
   font-weight: 400;
   text-align:left;
   line-height: 140%;
@@ -461,7 +461,7 @@ iframe{
 .hoverimage {
     position: fixed;
     left: 70%;
-    top: 76%;
+    top: 77%;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
