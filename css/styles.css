@@ -43,13 +43,13 @@ html{
 }
 
 .content-wrapper {
-    width: 100%;
+    width: 80%;
     margin: auto;
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 .content-wrapperabout {
-  padding-top: 2%;
+  padding-top: 4%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -70,6 +70,7 @@ html{
   vertical-align: middle;
   margin: auto;
   max-width: 1000px;
+  justify-content: space-evenly;
 }
 
 body {
@@ -112,13 +113,16 @@ main {
 
 .main-header {
   height: auto;
-  justify-content: center;
-  width: 55%;
+  /* width: 40%; */
 }
 
 .main-headerabout {
   width: 90%;
   padding-left: 100px;
+}
+
+.intro{
+  font-size: 1.4em !important;  
 }
 
 a:hover { text-decoration: none; border-bottom: 1px #A8A8A8; color: #A8A8A8}
@@ -151,9 +155,10 @@ a:active { text-decoration: none; color: #A8A8A8}
   float: left;
 
   margin-top:20px;
-  font-size:16px;
+  font-size:28px;
   font-weight: bold;
   letter-spacing: 0.025vw;
+  color: rgba(168, 168, 168, 0.699);
 }
 
 .links li{
@@ -181,7 +186,7 @@ footer{
 }
 
 h1{
-  font-size: 2em;
+  font-size: 2.6em;
   font-weight: 400;
   text-align:left;
   line-height: 140%;
@@ -201,14 +206,13 @@ h1:hover{
 .header-textabout {
   line-height: 55px;
   display: inline-block;
-  width: 100%;
   top: 15%;
 }
 
 .hoverimage{
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.1s linear;
+  transition: visibility 0s, opacity 0.2s linear;
 }
 
 span:hover + .hoverimage{
@@ -463,8 +467,8 @@ iframe{
 
 .hoverimage {
     position: fixed;
-    left: 65%;
-    top: 75%;
+    left: 68%;
+    top: 68%;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
