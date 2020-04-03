@@ -43,9 +43,9 @@ html{
 }
 
 .content-wrapper {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .content-wrapperabout {
@@ -55,7 +55,7 @@ html{
   flex-direction: row;
   width: 100%;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1800px;
   
   /* Then we define how is distributed the remaining space */
   justify-content: space-evenly;
@@ -194,7 +194,7 @@ h1:hover{
 .header-text {
   display: inline-block;
   /* margin-left: 19%; */
-  width: 70%;
+  width: 58%;
   top: 30%;
 }
 
@@ -463,7 +463,7 @@ iframe{
 
 .hoverimage {
     position: fixed;
-    left: 68%;
+    left: 65%;
     top: 75%;
     transform: translate(-50%, -50%);
     z-index: 1;
