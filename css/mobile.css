@@ -231,13 +231,13 @@ span:hover + .hoverimage{
 .footer {
   /* max-height: fit-content; */
   /* display: block; */
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .footer ul {
-  font-size: 16px !important;
+  font-size: 18px !important;
 
   list-style-type: none;
   margin: 0;
@@ -261,7 +261,7 @@ span:hover + .hoverimage{
 .about{
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   text-align: left;
   /* max-width:75%; */
@@ -273,7 +273,7 @@ span:hover + .hoverimage{
 .aboot{
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   text-align: left;
   letter-spacing: 0.025vw;
@@ -285,7 +285,7 @@ span:hover + .hoverimage{
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   text-align: left;
   letter-spacing: 0.025vw;
@@ -362,7 +362,7 @@ span:hover + .hoverimage{
 .descrip {
 
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   max-width:80%;
 }
 
@@ -436,14 +436,14 @@ iframe{
 }
 
 .l-text{
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.025vw;
   opacity: 1;
   margin-bottom: 30px;
 }
 
 .ll-text{
-  font-size: 16px;
+  font-size: 18px;
   cursor: default;
   letter-spacing: 0.025vw;
   opacity: 1;
@@ -480,7 +480,5 @@ iframe{
 }
 
 h2{
-  font-weight: 400;
   font-size: 3.5em;
-  padding-bottom: 1em;
 }
