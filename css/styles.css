@@ -55,7 +55,7 @@ html{
   flex-direction: row;
   width: 100%;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1600px;
   
   /* Then we define how is distributed the remaining space */
   justify-content: space-evenly;
@@ -73,7 +73,7 @@ html{
 }
 
 body {
-  font-family: 'Cardo';
+  font-family: 'Cormorant Garamond';
   background-color: #FFF;
   letter-spacing: 0.025vw;
   color: #000;
@@ -113,7 +113,7 @@ main {
 .main-header {
   height: auto;
   justify-content: center;
-  width: 60%;
+  width: 55%;
 }
 
 .main-headerabout {
@@ -171,7 +171,7 @@ a:active { text-decoration: none; color: #A8A8A8}
 	font-weight:400;
   font-size:18px;
   
-  font-family: 'Roboto Mono';
+  font-family: 'HKGrotesk';
 }
 
 footer{
@@ -194,7 +194,7 @@ h1:hover{
 .header-text {
   display: inline-block;
   /* margin-left: 19%; */
-  width: 80%;
+  width: 70%;
   top: 30%;
 }
 
@@ -262,13 +262,13 @@ span:hover + .hoverimage{
 .about{
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
 
-  font-family: 'Roboto Mono';
+  font-family: 'HKGrotesk';
 }
 
 .aboot{
@@ -284,13 +284,13 @@ span:hover + .hoverimage{
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   text-align: left;
   letter-spacing: 0.025vw;
   margin: 0;
 
-  font-family: 'Roboto Mono';
+  font-family: 'HKGrotesk';
 }
 
 
@@ -328,7 +328,6 @@ span:hover + .hoverimage{
   transition: opacity 192ms ease;
 }
 
-
 .column .hover{
   opacity:0;
   position: absolute;
@@ -348,7 +347,6 @@ span:hover + .hoverimage{
   justify-content: center;
 }
 
-
 .column .hover p {
   position: absolute;
 
@@ -359,7 +357,6 @@ span:hover + .hoverimage{
 }
 
 .descrip {
-
   font-weight: 300;
   font-size: 16px;
   max-width:80%;
@@ -466,7 +463,7 @@ iframe{
 
 .hoverimage {
     position: fixed;
-    left: 70%;
+    left: 68%;
     top: 75%;
     transform: translate(-50%, -50%);
     z-index: 1;

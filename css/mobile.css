@@ -32,8 +32,8 @@ html{
 } */
 
 .epic {
-  border-width: 1.5px;
-  border-color: #F49342;
+  border-width: 1px;
+  border-color: #a8a8a8;
   border-bottom-style: solid;
   text-shadow:
     2px 2px white,
@@ -42,11 +42,11 @@ html{
     -2px -2px white;
 }
 
-/* .content-wrapper {
+.content-wrapper {
     width: 80%;
     margin: auto;
     max-width: 800px;
-} */
+}
 
 .content-wrapperabout {
   padding-top: 15%;
@@ -115,10 +115,10 @@ main {
   padding-left: 100px;
 }
 
-a:hover { text-decoration: none; border-bottom: 1px #F49342; color: #F49342}
+a:hover { text-decoration: none; border-bottom: 1px #A8A8A8; color: #A8A8A8}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #F49342}
-a:active { text-decoration: none; color: #F49342}
+a:focus { text-decoration: none; color: #A8A8A8}
+a:active { text-decoration: none; color: #A8A8A8}
 
 .portfolio {
   margin-top: 20%;
@@ -243,6 +243,8 @@ span:hover + .hoverimage{
   margin: 0;
   padding: 0;
   overflow: hidden;
+
+  font-family: 'HKGrotesk';
 }
 
 .navbar ul {
@@ -250,6 +252,10 @@ span:hover + .hoverimage{
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.new-line{
+  word-wrap: break-word
 }
 
 .about{
@@ -261,7 +267,7 @@ span:hover + .hoverimage{
   /* max-width:75%; */
   letter-spacing: 0.025vw;
 
-  font-family: 'Roboto Mono';
+  font-family: 'HKGrotesk';
 }
 
 .aboot{
@@ -272,6 +278,8 @@ span:hover + .hoverimage{
   text-align: left;
   letter-spacing: 0.025vw;
   margin: 0;
+
+  font-family: 'HKGrotesk';
 }
 
 .abooot{
@@ -282,6 +290,8 @@ span:hover + .hoverimage{
   text-align: left;
   letter-spacing: 0.025vw;
   margin: 0;
+
+  font-family: 'HKGrotesk';
 }
 
 
