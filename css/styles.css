@@ -121,6 +121,10 @@ main {
   padding-left: 100px;
 }
 
+span:hover {
+  transform: translateX(20px);
+}
+
 .intro{
   font-size: 1.4em !important;  
 }
@@ -233,9 +237,10 @@ span:hover + .hoverimage1{
 
 .hovertext {
   font-style: inherit;
+  display: inline-block;
   font-weight: inherit;
   pointer-events: auto;
-  cursor: default;
+  transition: all .3s ease-out;
 }
 
 .hovertext1 {
