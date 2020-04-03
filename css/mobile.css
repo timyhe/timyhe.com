@@ -260,6 +260,8 @@ span:hover + .hoverimage{
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
+
+  font-family: 'Roboto Mono';
 }
 
 .aboot{
