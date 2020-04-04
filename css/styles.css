@@ -296,7 +296,7 @@ span:hover + .hoverimage1{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  /* line-height: 28px; */
+  line-height: 28px;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
