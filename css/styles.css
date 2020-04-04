@@ -33,7 +33,7 @@
 .epic {
   border-width: 1px;
   border-color: #A8A8A8;
-  border-bottom-style: solid;
+  border-bottom-style: dotted;
   text-shadow:
     2px 2px white,
     2px -2px white,
@@ -126,6 +126,7 @@ span:hover {
 
 .intro{
   font-size: 22px !important; 
+  line-height: 42px !important;
   font-weight: 400 !important; 
 }
 
@@ -248,7 +249,7 @@ span:hover + .hoverimage1{
   pointer-events: auto;
   border-width: 1px;
   border-color: #A8A8A8;
-  border-bottom-style: solid;
+  border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
     2px -2px white,
