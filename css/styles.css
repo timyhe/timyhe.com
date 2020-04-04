@@ -31,6 +31,10 @@ html{
   box-sizing: border-box;
 } */
 
+.tim{
+  font-weight: bold;
+}
+
 .epic {
   border-width: 1px;
   border-color: #A8A8A8;
@@ -125,7 +129,8 @@ span:hover {
 }
 
 .intro{
-  font-size: 18px !important;  
+  font-size: 18px !important; 
+  font-weight: 400 !important; 
 }
 
 a:hover { text-decoration: none; border-bottom: 1px #A8A8A8; color: #A8A8A8}
@@ -190,7 +195,6 @@ footer{
 
 h1{
   font-size: 2.4em;
-  font-weight: 400;
   text-align:left;
   line-height: 140%;
 }
