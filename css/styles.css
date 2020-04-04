@@ -1,8 +1,3 @@
-html{
-  overflow-y: auto;
-  scroll-behavior: smooth;
-}
-
 @font-face {
   font-family: 'HKGrotesk';
   src: url("./HKGrotesk-Regular.woff2") format('woff2'),
@@ -79,9 +74,9 @@ html{
 body {
   font-family: 'HKGrotesk';
   background-color: #FFF;
-  letter-spacing: 0.025vw;
   color: #000;
   letter-spacing: 0.025vw;
+  margin: 0;
 }
 
 .landing {
@@ -251,6 +246,15 @@ span:hover + .hoverimage1{
   font-weight: inherit;
   pointer-events: auto;
   cursor: default;
+
+  border-width: 1px;
+  border-color: #A8A8A8;
+  border-bottom-style: solid;
+  /* text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white; */
 }
 
 .bottom{
