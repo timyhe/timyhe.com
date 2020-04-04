@@ -49,11 +49,11 @@
 }
 
 .content-wrapperabout {
-  padding-top: 15%;
+  padding-top: 20%;
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 80%;
   margin: auto;
   
   /* Then we define how is distributed the remaining space */
@@ -120,7 +120,8 @@ span:hover {
 }
 
 .intro{
-  font-size: 70px !important;
+  font-size: 42px !important;
+  line-height: 60px !important;
   font-weight: 400 !important; 
 }
 
@@ -259,7 +260,7 @@ span:hover + .hoverimage1{
 .navbar {
   margin: auto;
   margin-top: 5%;
-  width: 90%;
+  width: 80%;
 }
 
 .footer {
