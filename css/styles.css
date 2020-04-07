@@ -72,7 +72,7 @@
 }
 
 body {
-  font-family: 'Cardo';
+  font-family: 'Source Serif Pro';
   background-color: #FFF;
   color: #000;
   letter-spacing: 0.025vw;
@@ -312,6 +312,8 @@ span:hover + .hoverimage1{
   line-height: 28px;
   letter-spacing: 0.025vw;
   margin: 0;
+
+  font-family: 'HKGrotesk';
 }
 
 .abooot{
