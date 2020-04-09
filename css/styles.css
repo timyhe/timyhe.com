@@ -512,9 +512,9 @@ iframe{
 .yeehaw:hover:before {content:"天"}
 
 .hoverimage {
-    position: fixed;
+    position: absolute;
     right: 17.5%;
-    top: 48%;
+    top: 68%;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
