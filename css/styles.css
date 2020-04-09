@@ -22,6 +22,22 @@ html {
       font-style: normal;
 }
 
+@font-face {
+  font-family: 'Mackinac';
+  src: url('./P22Mackinac-Book_13.otf') format('opentype');
+
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mackinac';
+  src: url('./P22Mackinac-Medium_6.otf') format('opentype');
+
+      font-weight: bold;
+      font-style: normal;
+}
+
 /* .epic1 {
   border-bottom: 20px solid rgba(244, 146, 66, 0.322);
   border-spacing: 1px;
@@ -36,17 +52,17 @@ html {
 
 .epic {
   border-width: 1px;
-  border-color: #A8A8A8;
+  border-color: #838b7c;
   border-bottom-style: dotted;
-  text-shadow:
+  /* text-shadow:
     2px 2px white,
     2px -2px white,
     -2px 2px white,
-    -2px -2px white;
+    -2px -2px white; */
 }
 
 .content-wrapper {
-    width: 80%;
+    width: 65%;
     margin: auto;
     max-width: 800px;
     margin-bottom: 100px;
@@ -57,7 +73,7 @@ html {
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 65%;
   margin: auto;
   max-width: 1800px;
   
@@ -70,13 +86,13 @@ html {
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 65%;
   margin: auto;
   max-width: 1000px;
 }
 
 body {
-  font-family: 'Cardo';
+  font-family: 'Mackinac';
   background-color: #FFF;
   color: #000;
   letter-spacing: 0.025vw;
@@ -84,8 +100,8 @@ body {
 }
 
 .landing {
-  background-color: #000000;
-  color: #fff;
+  background-color: #ebe4de;
+  color:#394831;
 }
 
 a{
@@ -129,15 +145,15 @@ span:hover {
 }
 
 .intro{
-  font-size: 22px !important; 
-  line-height: 42px !important;
+  /* font-size: 22px !important; 
+  line-height: 42px !important; */
   font-weight: 400 !important; 
 }
 
-a:hover { text-decoration: none; border-bottom: 1px #A8A8A8; color: #A8A8A8}
+a:hover { text-decoration: none; border-bottom: 1px #838b7c; color: #838b7c}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #A8A8A8}
-a:active { text-decoration: none; color: #A8A8A8}
+a:focus { text-decoration: none; color: #838b7c}
+a:active { text-decoration: none; color: #838b7c}
 
 .portfolio {
   margin-top: 4%;
@@ -167,7 +183,6 @@ a:active { text-decoration: none; color: #A8A8A8}
   font-weight: bold;
   font-size:18px;
   letter-spacing: 0.025vw;
-  font-family: 'HKGrotesk';
 }
 
 .links li{
@@ -175,7 +190,7 @@ a:active { text-decoration: none; color: #A8A8A8}
   margin-top:20px;
   float:right;
 	font-weight:400;
-  font-size:16px;
+  font-size:18px;
   letter-spacing: 0.025vw;
 }
 
@@ -220,7 +235,7 @@ h1:hover{
 .hoverimage{
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.3s linear;
 }
 
 span:hover + .hoverimage{
@@ -252,7 +267,7 @@ span:hover + .hoverimage1{
   font-weight: inherit;
   pointer-events: auto;
   border-width: 1px;
-  border-color: #A8A8A8;
+  border-color: #838b7c;
   border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
@@ -270,7 +285,7 @@ span:hover + .hoverimage1{
 .navbar {
   margin: auto;
   margin-top: 2%;
-  width: 70%;
+  width: 65%;
 }
 
 .footer {
@@ -500,9 +515,9 @@ iframe{
 .yeehaw:hover:before {content:"天"}
 
 .hoverimage {
-    position: absolute;
-    right: 15%;
-    top: 70%;
+    position: fixed;
+    right: 17.5%;
+    top: 62%;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
