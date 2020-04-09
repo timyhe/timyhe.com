@@ -448,6 +448,7 @@ iframe{
 
 .full-width{
     margin-top: 3vw;
+    margin-bottom: 3vw;
     margin-left: 5%;
     width: 90%;
     /* position: relative;*/
