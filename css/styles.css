@@ -513,7 +513,7 @@ iframe{
 .hoverimage {
     position: fixed;
     right: 17.5%;
-    top: 55%;
+    top: 50%;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
