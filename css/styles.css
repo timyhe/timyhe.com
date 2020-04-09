@@ -175,7 +175,7 @@ a:active { text-decoration: none; color: #19214d79}
 
   font-weight:bold;
   line-height: 23px;
-  font-size:18px;
+  font-size:24px;
   letter-spacing: 0.025vw;
 }
 
@@ -280,7 +280,7 @@ span:hover + .hoverimage1{
 
 .navbar {
   margin: auto;
-  margin-top: 2%;
+  margin-top: 3%;
   width: 65%;
 }
 
@@ -514,7 +514,7 @@ iframe{
 .hoverimage {
     position: fixed;
     right: 17.5%;
-    top: 50%;
+    top: 48%;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
