@@ -52,7 +52,7 @@ html {
 
 .epic {
   border-width: 1px;
-  border-color: #838b7c;
+  border-color: #19214d79;
   border-bottom-style: dotted;
   /* text-shadow:
     2px 2px white,
@@ -82,7 +82,7 @@ html {
 }
 
 .content-wrapperaboutmob {
-  padding-top: 8%;
+  padding-top: 12%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -100,8 +100,8 @@ body {
 }
 
 .landing {
-  background-color: #ebe4de;
-  color:#394831;
+  background-color: #deeff5;
+  color:#19214d;
 }
 
 a{
@@ -144,21 +144,15 @@ span:hover {
   transform: translateX(20px);
 }
 
-.intro{
-  /* font-size: 22px !important; 
-  line-height: 42px !important; */
-  font-weight: 400 !important; 
-}
-
-a:hover { text-decoration: none; border-bottom: 1px #838b7c; color: #838b7c}
+a:hover { text-decoration: none; border-bottom: 1px #19214d79; color: #19214d79}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #838b7c}
-a:active { text-decoration: none; color: #838b7c}
+a:focus { text-decoration: none; color: #19214d79}
+a:active { text-decoration: none; color: #19214d79}
 
 .portfolio {
-  margin-top: 4%;
+  margin-top: 8%;
   width: 100%;
-  margin-bottom: 14vh;
+  margin-bottom: 8%;
   /* position: fixed; */
 }
 
@@ -179,19 +173,20 @@ a:active { text-decoration: none; color: #838b7c}
 .home {
   float: left;
 
-  margin-top:20px;
-  font-weight: bold;
+  font-weight:bold;
+  line-height: 23px;
   font-size:18px;
   letter-spacing: 0.025vw;
 }
 
 .links li{
   padding-left:48px;
-  margin-top:20px;
   float:right;
 	font-weight:400;
   font-size:18px;
   letter-spacing: 0.025vw;
+
+  font-family: 'HKGrotesk';
 }
 
 .footerlinks li{
@@ -266,8 +261,9 @@ span:hover + .hoverimage1{
   font-style: inherit;
   font-weight: inherit;
   pointer-events: auto;
+  cursor: default;
   border-width: 1px;
-  border-color: #838b7c;
+  border-color: #19214d79;
   border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
@@ -517,7 +513,7 @@ iframe{
 .hoverimage {
     position: fixed;
     right: 17.5%;
-    top: 62%;
+    top: 55%;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
@@ -527,9 +523,9 @@ iframe{
 }
 
 .hoverimage1 {
-  position: absolute;
-  left: 180%;
-  top: 80%;
+  position: fixed;
+  margin-left: 12%;
+  margin-top: -2.5%;
   transform: translate(-50%, -50%);
   z-index: -1;
   /* pointer-events: none;
