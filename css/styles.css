@@ -100,8 +100,8 @@ body {
 }
 
 .landing {
-  background-color: #deeff5;
-  color:#19214d;
+  background-color: #ffe7a1;
+  color:#000;
 }
 
 a{
@@ -173,10 +173,11 @@ a:active { text-decoration: none; color: #19214d79}
 .home {
   float: left;
 
-  font-weight:bold;
   line-height: 23px;
   font-size:24px;
   letter-spacing: 0.025vw;
+
+  font-family: 'HKGrotesk';
 }
 
 .links li{
@@ -513,8 +514,8 @@ iframe{
 
 .hoverimage {
     position: absolute;
-    right: 17.5%;
-    top: 68%;
+    right: 17.5vw;
+    top: 68vh;
     /* transform: translate(-50%, -50%); */
     z-index: -1;
     /* pointer-events: none;
