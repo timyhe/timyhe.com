@@ -52,7 +52,7 @@ html {
 
 .epic {
   border-width: 1px;
-  border-color: #33333348;
+  border-color: #1f1f1f77;
   border-bottom-style: dotted;
   /* text-shadow:
     2px 2px white,
@@ -88,20 +88,27 @@ html {
   flex-direction: row;
   width: 65%;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 body {
   font-family: 'Mackinac';
-  background-color: #FFF;
-  color: #000;
+  background-color: #F9F7EA;
+  color: #1f1f1f;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  
   letter-spacing: 0.025vw;
-  margin: 0;
+
+  transition: background-color 0.6s ease;
 }
 
-.landing {
-  background-color: #d8cfbc;
-  color: #333333;
+.case {
+  background-color: #FFF;
+  color: #000;
+
+  transition: background-color 0.6s ease;
 }
 
 a{
@@ -116,8 +123,8 @@ a{
 }
 
 main {
-  box-sizing: border-box;
-  min-height: 90%;
+  /* box-sizing: border-box;
+  min-height: 90%; */
   margin: 0 auto;
 }
 
@@ -144,10 +151,10 @@ span:hover {
   transform: translateX(20px);
 }
 
-a:hover { text-decoration: none; border-bottom: 1px #33333348; color: #33333348}
+a:hover { text-decoration: none; border-bottom: 1px #1f1f1f77; color: #1f1f1f77}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #33333348}
-a:active { text-decoration: none; color: #33333348}
+a:focus { text-decoration: none; color: #1f1f1f77}
+a:active { text-decoration: none; color: #1f1f1f77}
 
 .portfolio {
   margin-top: 8%;
@@ -172,10 +179,8 @@ a:active { text-decoration: none; color: #33333348}
 
 .home {
   float: left;
-
-  line-height: 23px;
-  font-weight: bold;
-  font-size:18px;
+	font-weight:700;
+  font-size:16px;
   letter-spacing: 0.025vw;
 
   font-family: 'HKGrotesk';
@@ -183,9 +188,9 @@ a:active { text-decoration: none; color: #33333348}
 
 .links li{
   padding-left:48px;
-  float:right;
+  float: right;
 	font-weight:400;
-  font-size:18px;
+  font-size:16px;
   letter-spacing: 0.025vw;
 
   font-family: 'HKGrotesk';
@@ -195,7 +200,7 @@ a:active { text-decoration: none; color: #33333348}
   padding-left:48px;
   float:left;
 	font-weight:400;
-  font-size:18px;
+  font-size:16px;
   
   font-family: 'HKGrotesk';
 }
@@ -265,7 +270,7 @@ span:hover + .hoverimage1{
   pointer-events: auto;
   cursor: default;
   border-width: 1px;
-  border-color: #33333348;
+  border-color: #1f1f1f77;
   border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
@@ -336,12 +341,17 @@ span:hover + .hoverimage1{
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.025vw;
-  /* margin: 0; */
+  float: right;
+  transition: all .3s ease-out;;
 
   font-family: 'HKGrotesk';
+}
+
+.abooot:hover {
+  transform: translateX(20px);
 }
 
 
