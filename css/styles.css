@@ -52,7 +52,7 @@ html {
 
 .epic {
   border-width: 1px;
-  border-color: #19214d79;
+  border-color: #33333348;
   border-bottom-style: dotted;
   /* text-shadow:
     2px 2px white,
@@ -144,10 +144,10 @@ span:hover {
   transform: translateX(20px);
 }
 
-a:hover { text-decoration: none; border-bottom: 1px #19214d79; color: #19214d79}
+a:hover { text-decoration: none; border-bottom: 1px #33333348; color: #33333348}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #19214d79}
-a:active { text-decoration: none; color: #19214d79}
+a:focus { text-decoration: none; color: #33333348}
+a:active { text-decoration: none; color: #33333348}
 
 .portfolio {
   margin-top: 8%;
@@ -265,7 +265,7 @@ span:hover + .hoverimage1{
   pointer-events: auto;
   cursor: default;
   border-width: 1px;
-  border-color: #19214d79;
+  border-color: #33333348;
   border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
