@@ -181,6 +181,7 @@ a:active { text-decoration: none; color: #19214d79}
 }
 
 .footerlinks li{
+  display: block;
   padding-left:48px;
   float:left;
 	font-weight:400;
@@ -196,7 +197,7 @@ footer{
 }
 
 h1{
-  font-size: 5em;
+  font-size: 4em;
   text-align:left;
   line-height: 140%;
 }
@@ -316,6 +317,8 @@ span:hover + .hoverimage1{
   line-height: 48px;
   letter-spacing: 0.025vw;
   margin: 0;
+
+  font-family: 'HKGrotesk';
 }
 
 .abooot{
