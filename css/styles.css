@@ -32,7 +32,7 @@ html {
 
 @font-face {
   font-family: 'Mackinac';
-  src: url('./P22Mackinac-Bold_23.otf') format('opentype');
+  src: url('./P22Mackinac-Medium_6.otf') format('opentype');
 
       font-weight: bold;
       font-style: normal;
@@ -52,7 +52,7 @@ html {
 
 .epic {
   border-width: 1px;
-  border-color: #1f1f1f77;
+  border-color: #FFFFFF77;
   border-bottom-style: dotted;
   /* text-shadow:
     2px 2px white,
@@ -93,22 +93,26 @@ html {
 
 body {
   font-family: 'Mackinac';
-  background-color: #F9F7EA;
-  color: #1f1f1f;
+  background-color: #000;
+  color: #FFF;
   margin: 0 auto;
   padding: 0;
   height: 100%;
   
   letter-spacing: 0.025vw;
 
-  transition: background-color 0.6s ease;
+  /* transition: background-color 0.6s ease; */
 }
 
 .case {
   background-color: #FFF;
   color: #000;
 
-  transition: background-color 0.6s ease;
+  /* transition: background-color 0.6s ease; */
+}
+
+.case a:hover{
+  color: #00000077;
 }
 
 a{
@@ -151,10 +155,10 @@ span:hover {
   transform: translateX(20px);
 }
 
-a:hover { text-decoration: none; border-bottom: 1px #1f1f1f77; color: #1f1f1f77}
+a:hover { text-decoration: none; border-bottom: 1px #FFFFFF77; color: #FFFFFF77}
 a:visited { text-decoration: none;}
-a:focus { text-decoration: none; color: #1f1f1f77}
-a:active { text-decoration: none; color: #1f1f1f77}
+a:focus { text-decoration: none; color: #FFFFFF77}
+a:active { text-decoration: none; color: #FFFFFF77}
 
 .portfolio {
   margin-top: 8%;
@@ -270,7 +274,7 @@ span:hover + .hoverimage1{
   pointer-events: auto;
   cursor: default;
   border-width: 1px;
-  border-color: #1f1f1f77;
+  border-color: #FFFFFF77;
   border-bottom-style: dashed;
   /* text-shadow:
     2px 2px white,
