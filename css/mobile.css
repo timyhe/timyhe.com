@@ -170,7 +170,7 @@ a:active { text-decoration: none; color: #19214d79}
   font-weight: bold;
   font-size:32px;
   letter-spacing: 0.025vw;
-  font-family: 'HKGrotesk';
+  font-family: 'Space Mono';
 }
 
 .links li{
@@ -180,6 +180,8 @@ a:active { text-decoration: none; color: #19214d79}
 	font-weight:400;
   font-size:32px;
   letter-spacing: 0.025vw;
+
+  font-family: 'Space Mono';
 }
 
 .footerlinks li{
@@ -189,7 +191,7 @@ a:active { text-decoration: none; color: #19214d79}
 	font-weight:400;
   font-size:32px;
   
-  font-family: 'HKGrotesk';
+  font-family: 'Space Mono';
 }
 
 footer{
@@ -303,13 +305,13 @@ span:hover + .hoverimage1{
 .about{
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 48px;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
 
-  font-family: 'HKGrotesk';
+  font-family: 'Space Mono';
 }
 
 .aboot{
@@ -320,18 +322,17 @@ span:hover + .hoverimage1{
   letter-spacing: 0.025vw;
   margin: 0;
 
-  font-family: 'HKGrotesk';
+  font-family: 'Space Mono';
 }
 
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 20px;
   letter-spacing: 0.025vw;
   /* margin: 0; */
 
-  font-family: 'HKGrotesk';
+  font-family: 'Space Mono';
 }
 
 .abooot:hover {
