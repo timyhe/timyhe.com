@@ -88,7 +88,7 @@ html {
   flex-direction: row;
   width: 65%;
   margin: auto;
-  max-width: 1100px;
+  max-width: 1000px;
 }
 
 body {
@@ -114,8 +114,32 @@ body {
     background-color:#F9F7EA;
     color: #1F1F1F;
   }
-  a:hover{
-    color: #00000077;
+
+  a:hover { text-decoration: none; border-bottom: 1px #1f1f1f77 !important; color: #1f1f1f77 !important}
+  a:visited { text-decoration: none;}
+  a:focus { text-decoration: none; color: #1f1f1f77 !important}
+  a:active { text-decoration: none; color: #1f1f1f77 !important}
+
+
+  .hovertext1 {
+    font-style: inherit;
+    font-weight: inherit;
+    pointer-events: auto;
+    cursor: default;
+    border-width: 1px;
+    border-color: #1F1F1F77 !important;
+    border-bottom-style: dashed;
+  }
+
+  .epic {
+    border-width: 1px;
+    border-color: #1F1F1F77 !important;
+    border-bottom-style: dotted;
+    /* text-shadow:
+      2px 2px white,
+      2px -2px white,
+      -2px 2px white,
+      -2px -2px white; */
   }
 }
 
@@ -130,7 +154,7 @@ body {
   color: #00000077;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -162,7 +186,7 @@ main {
 }
 
 .main-headerabout {
-  width: 90%;
+  width: 70%;
   padding-left: 100px;
 }
 
