@@ -86,7 +86,7 @@ html {
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 65%;
+  width: 60%;
   margin: auto;
   max-width: 1000px;
 }
@@ -104,7 +104,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #000;
+    background-color: #1f1f1f;
     color: #FFF;
   }
 }
@@ -141,6 +141,10 @@ body {
       -2px 2px white,
       -2px -2px white; */
   }
+}
+
+.weirdlineheight {
+  margin-top: 0;
 }
 
 .case {
@@ -186,8 +190,8 @@ main {
 }
 
 .main-headerabout {
-  width: 70%;
-  padding-left: 100px;
+  width: 55%;
+  padding-left: 90px;
 }
 
 span:hover {
@@ -208,8 +212,8 @@ a:active { text-decoration: none; color: #FFFFFF77}
 
 .rectangle {
     position: relative;
-    max-width: 30%;
-    height:10%;
+    max-width: 35%;
+    height: 15%;
 }
 
 .rectangle img{
@@ -272,7 +276,7 @@ h1:hover{
 }
 
 .header-textabout {
-  line-height: 55px;
+  line-height: 75px !important;
   display: inline-block;
   top: 15%;
 }
