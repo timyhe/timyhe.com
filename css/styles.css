@@ -147,17 +147,15 @@ body {
   margin-top: 0;
 }
 
-.case {
+/* .case {
   background-color: #F9F7EA;
   color: #1F1F1F;
   height:100%;
-
-  /* transition: background-color 0.6s ease; */
 }
 
 .case a:hover{
   color: #00000077;
-}
+} */
 
 a {
   text-decoration: none;
