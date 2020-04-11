@@ -114,6 +114,9 @@ body {
     background-color:#F9F7EA;
     color: #1F1F1F;
   }
+  a:hover{
+    color: #00000077;
+  }
 }
 
 .case {
