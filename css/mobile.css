@@ -93,6 +93,47 @@ body {
   transition: background-color 0.6s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f1f1f;
+    color: #FFF;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color:#F9F7EA;
+    color: #1F1F1F;
+  }
+
+  a:hover { text-decoration: none; border-bottom: 1px #1f1f1f77 !important; color: #1f1f1f77 !important}
+  a:visited { text-decoration: none;}
+  a:focus { text-decoration: none; color: #1f1f1f77 !important}
+  a:active { text-decoration: none; color: #1f1f1f77 !important}
+
+
+  .hovertext1 {
+    font-style: inherit;
+    font-weight: inherit;
+    pointer-events: auto;
+    cursor: default;
+    border-width: 1px;
+    border-color: #1F1F1F77 !important;
+    border-bottom-style: dashed;
+  }
+
+  .epic {
+    border-width: 1px;
+    border-color: #1F1F1F77 !important;
+    border-bottom-style: dotted;
+    /* text-shadow:
+      2px 2px white,
+      2px -2px white,
+      -2px 2px white,
+      -2px -2px white; */
+  }
+}
+
 .landing {
   background-color: #d8cfbc;
   color: #333333;
