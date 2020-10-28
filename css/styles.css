@@ -69,11 +69,11 @@ html {
 }
 
 .content-wrapperabout {
-  padding-top: 12%;
+  padding-top: 5%;
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 65%;
+  width: 60%;
   margin: auto;
   max-width: 1800px;
   
@@ -272,6 +272,8 @@ h1:hover{
   /* margin-left: 19%; */
   /* width: 85%; */
   top: 30%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .header-textabout {
@@ -333,9 +335,9 @@ span:hover + .hoverimage1{
 
 .navbar {
   position: fixed;
-  margin-left: 17.5%;
+  margin-left: 20%;
   margin-top: 3%;
-  width: 65%;
+  width: 60%;
   z-index: 1;
 }
 
