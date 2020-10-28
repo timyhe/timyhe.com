@@ -243,6 +243,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
   float: left;
 	font-weight:bold;
   font-size:16px;
+  line-height: 24px;
   letter-spacing: 0.2vw;
 
   font-family: 'SpaceGrotesk';
@@ -253,6 +254,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
   float: right;
 	font-weight:400;
   font-size:16px;
+  line-height: 30px;
   letter-spacing: 0.025vw;
 
   font-family: 'SpaceGrotesk';
@@ -261,6 +263,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
 .footerlinks li{
   padding-left:48px;
   float:left;
+  line-height: 30px;
 	font-weight:400;
   font-size:16px;
   
@@ -360,13 +363,13 @@ span:hover + .hoverimage1{
 .footer {
   /* max-height: fit-content; */
   /* display: block; */
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 5%;
   margin-bottom: 2%;
 }
 
 .footer ul {
-  font-size: 15px !important;
+  font-size: 16px !important;
 
   list-style-type: none;
   margin: 0;
@@ -485,7 +488,7 @@ span:hover + .hoverimage1{
 
 .descrip {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   max-width:80%;
 }
 
@@ -560,14 +563,14 @@ iframe{
 }
 
 .l-text{
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.025vw;
   opacity: 1;
   margin-bottom: 30px;
 }
 
 .ll-text{
-  font-size: 15px;
+  font-size: 16px;
   cursor: default;
   letter-spacing: 0.025vw;
   opacity: 1;
