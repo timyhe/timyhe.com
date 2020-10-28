@@ -13,6 +13,22 @@ html {
 }
 
 @font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("./SpaceGrotesk-Regular.woff2") format('woff2');
+
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("./SpaceGrotesk-SemiBold.woff2") format('woff2');
+
+      font-weight: bold;
+      font-style: normal;
+}
+
+@font-face {
   font-family: 'HKGrotesk';
   src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
        url('./HKGrotesk-SemiBold.woff') format('woff'),
@@ -225,30 +241,30 @@ a:active { text-decoration: none; color: #FFFFFF77}
 
 .home {
   float: left;
-	font-weight:700;
-  font-size:15px;
+	font-weight:bold;
+  font-size:16px;
   letter-spacing: 0.2vw;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .links li{
   padding-left:48px;
   float: right;
 	font-weight:400;
-  font-size:15px;
+  font-size:16px;
   letter-spacing: 0.025vw;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .footerlinks li{
   padding-left:48px;
   float:left;
 	font-weight:400;
-  font-size:15px;
+  font-size:16px;
   
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 footer{
@@ -368,36 +384,36 @@ span:hover + .hoverimage1{
 .about{
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 30px;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .aboot{
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.025vw;
   margin: 0;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .abooot{
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.025vw;
   float: right;
   transition: all .3s ease-out;;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .abooot:hover {

@@ -19,6 +19,22 @@
 }
 
 @font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("./SpaceGrotesk-Regular.woff2") format('woff2');
+
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("./SpaceGrotesk-SemiBold.woff2") format('woff2');
+
+      font-weight: bold;
+      font-style: normal;
+}
+
+@font-face {
   font-family: 'Mackinac';
   src: url('./P22Mackinac-Book_13.otf') format('opentype');
 
@@ -102,7 +118,7 @@ body {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color:#F9F7EA;
+    background-color:#EDEAEA;
     color: #1F1F1F;
   }
 
@@ -211,7 +227,7 @@ a:active { text-decoration: none; color: #19214d79}
   font-weight: bold;
   font-size:32px;
   letter-spacing: 0.025vw;
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .links li{
@@ -222,7 +238,7 @@ a:active { text-decoration: none; color: #19214d79}
   font-size:32px;
   letter-spacing: 0.025vw;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .footerlinks li{
@@ -232,7 +248,7 @@ a:active { text-decoration: none; color: #19214d79}
 	font-weight:400;
   font-size:32px;
   
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 footer{
@@ -352,7 +368,7 @@ span:hover + .hoverimage1{
   /* max-width:75%; */
   letter-spacing: 0.025vw;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .aboot{
@@ -363,7 +379,7 @@ span:hover + .hoverimage1{
   letter-spacing: 0.025vw;
   margin: 0;
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .abooot{
@@ -373,7 +389,7 @@ span:hover + .hoverimage1{
   letter-spacing: 0.025vw;
   /* margin: 0; */
 
-  font-family: 'Space Mono';
+  font-family: 'SpaceGrotesk';
 }
 
 .abooot:hover {
