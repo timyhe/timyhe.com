@@ -80,7 +80,7 @@ html {
 .content-wrapper {
     margin: 0 20% 0 20%;
     max-width: 1300px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .work-box {
@@ -427,7 +427,7 @@ span:hover + .hoverimage1{
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 48px;
   line-height: 32px;
   letter-spacing: 0.025vw;
   float: right;
@@ -526,7 +526,6 @@ span:hover + .hoverimage1{
 
 .caption-container{
   font-size: 11px;
-  font-style: italic;
   font-family: 'SpaceGrotesk';
   color:#5f5f5f;
   text-align: center;
