@@ -91,13 +91,13 @@ html {
 .text-left {
     padding: 20px 20px 20px 0px;
     box-sizing: border-box;
-    flex-basis: 45%;
+    flex-basis: 35%;
 }
 
 .text-right {
   padding: 20px 0px 20px 20px;
   box-sizing: border-box;
-  flex-basis: 55%;
+  flex-basis: 65%;
 }
 
 .content-wrapperabout {
@@ -404,7 +404,7 @@ span:hover + .hoverimage1{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 1.8;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.025vw;
@@ -428,11 +428,11 @@ span:hover + .hoverimage1{
   font-weight: bold;
   font-size: 20px;
   margin-top: 48px;
+  margin-bottom: 10%;
   line-height: 32px;
   letter-spacing: 0.025vw;
   float: right;
   transition: all .3s ease-out;;
-
   font-family: 'SpaceGrotesk';
 }
 
