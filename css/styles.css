@@ -147,16 +147,11 @@ body {
     border-bottom-style: dashed;
   }
 
-  .epic {
+  /* .epic {
     border-width: 1px;
     border-color: #1F1F1F77 !important;
-    border-bottom-style: dotted;
-    /* text-shadow:
-      2px 2px white,
-      2px -2px white,
-      -2px 2px white,
-      -2px -2px white; */
-  }
+    border-bottom-style: dashed;
+  } */
 }
 
 .weirdlineheight {
