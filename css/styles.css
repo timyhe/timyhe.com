@@ -537,7 +537,7 @@ iframe{
   margin-top: 10em;
   margin-bottom: 2em;
   margin-left: 20%;
-  max-width: 35%;
+  max-width: 650px;
 }
 
 .column:hover .hover{
