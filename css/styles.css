@@ -3,16 +3,6 @@ html {
 }
 
 @font-face {
-  font-family: 'HKGrotesk';
-  src: url("./HKGrotesk-Regular.woff2") format('woff2'),
-       url('./HKGrotesk-Regular.woff') format('woff'),
-       url('./HKGrotesk-Regular.ttf') format('truetype');
-
-      font-weight: normal;
-      font-style: normal;
-}
-
-@font-face {
   font-family: 'SpaceGrotesk';
   src: url("./SpaceGrotesk-Regular.woff2") format('woff2');
 
@@ -23,16 +13,6 @@ html {
 @font-face {
   font-family: 'SpaceGrotesk';
   src: url("./SpaceGrotesk-SemiBold.woff2") format('woff2');
-
-      font-weight: bold;
-      font-style: normal;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url("./HKGrotesk-SemiBold.woff2") format('woff2'),
-       url('./HKGrotesk-SemiBold.woff') format('woff'),
-       url('./HKGrotesk-SemiBold.ttf') format('truetype');
 
       font-weight: bold;
       font-style: normal;
@@ -64,6 +44,10 @@ html {
 
 .tim{
   font-weight: bold;
+}
+
+ul {
+  margin-top: 0 !important;
 }
 
 .epic {
@@ -129,7 +113,7 @@ body {
   padding: 1px;
   height: 100%;
   
-  letter-spacing: 0.025vw;
+  letter-spacing: 0.05em;
 
   /* transition: background-color 0.6s ease; */
 }
@@ -258,7 +242,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
 .home {
   float: left;
 	font-weight:bold;
-  font-size:18px;
+  font-size:16px;
   line-height: 24px;
   letter-spacing: 0.2vw;
 
@@ -269,9 +253,9 @@ a:active { text-decoration: none; color: #FFFFFF77}
   padding-left:48px;
   float: right;
 	font-weight:400;
-  font-size:18px;
+  font-size:16px;
   line-height: 30px;
-  letter-spacing: 0.025vw;
+  letter-spacing: 0.05em;
 
   font-family: 'SpaceGrotesk';
 }
@@ -281,7 +265,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
   float:left;
   line-height: 30px;
 	font-weight:400;
-  font-size:18px;
+  font-size:16px;
   
   font-family: 'SpaceGrotesk';
 }
@@ -379,13 +363,13 @@ span:hover + .hoverimage1{
 .footer {
   /* max-height: fit-content; */
   /* display: block; */
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 5%;
   margin-bottom: 2%;
 }
 
 .footer ul {
-  font-size: 18px !important;
+  font-size: 16px !important;
 
   list-style-type: none;
   margin: 0;
@@ -403,11 +387,11 @@ span:hover + .hoverimage1{
 .about{
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   text-align: left;
   /* max-width:75%; */
-  letter-spacing: 0.025vw;
+  letter-spacing: 0.05em;
 
   font-family: 'SpaceGrotesk';
 }
@@ -415,9 +399,9 @@ span:hover + .hoverimage1{
 .aboot{
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0.025vw;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
   margin: 0;
 
   font-family: 'SpaceGrotesk';
@@ -430,7 +414,7 @@ span:hover + .hoverimage1{
   margin-top: 48px;
   margin-bottom: 10%;
   line-height: 32px;
-  letter-spacing: 0.025vw;
+  letter-spacing: 0.05em;
   float: right;
   transition: all .3s ease-out;;
   font-family: 'SpaceGrotesk';
@@ -505,7 +489,7 @@ span:hover + .hoverimage1{
 
 .descrip {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   max-width:80%;
 }
 
@@ -558,7 +542,7 @@ iframe{
   margin-top: 10em;
   margin-bottom: 2em;
   margin-left: 20%;
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .column:hover .hover{
@@ -583,16 +567,16 @@ iframe{
 }
 
 .l-text{
-  font-size: 18px;
-  letter-spacing: 0.025vw;
+  font-size: 16px;
+  letter-spacing: 0.05em;
   opacity: 1;
   margin-bottom: 30px;
 }
 
 .ll-text{
-  font-size: 18px;
+  font-size: 16px;
   cursor: default;
-  letter-spacing: 0.025vw;
+  letter-spacing: 0.05em;
   opacity: 1;
 }
 
