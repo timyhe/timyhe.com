@@ -91,13 +91,13 @@ html {
 .text-left {
     padding: 20px 20px 20px 0px;
     box-sizing: border-box;
-    flex-basis: 35%;
+    flex-basis: 30%;
 }
 
 .text-right {
   padding: 20px 0px 20px 20px;
   box-sizing: border-box;
-  flex-basis: 65%;
+  flex-basis: 60%;
 }
 
 .content-wrapperabout {
