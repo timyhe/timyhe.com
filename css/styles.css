@@ -85,13 +85,13 @@ ul {
 .text-left {
     padding: 20px 20px 20px 0px;
     box-sizing: border-box;
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 
 .text-right {
   padding: 20px 0px 20px 20px;
   box-sizing: border-box;
-  flex-basis: 60%;
+  flex-basis: 55%;
 }
 
 .content-wrapperabout {
