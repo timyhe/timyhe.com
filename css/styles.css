@@ -73,6 +73,11 @@ ul {
   justify-content: flex-start;
 }
 
+.work-box-nocap {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .two-images {
   display:flex;
   flex-wrap:nowrap;
