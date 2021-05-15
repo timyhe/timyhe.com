@@ -85,13 +85,13 @@ ul {
 .text-left {
     padding: 20px 20px 20px 0px;
     box-sizing: border-box;
-    flex-basis: 45%;
+    flex-basis: 50%;
 }
 
 .text-right {
   padding: 20px 0px 20px 20px;
   box-sizing: border-box;
-  flex-basis: 55%;
+  flex-basis: 50%;
 }
 
 .content-wrapperabout {
@@ -185,8 +185,11 @@ a {
 
 .headomobile{
   font-size: 24px !important;
+  line-height: 1.7;
   margin-bottom: 5px;
   margin-top: 0px;
+
+  font-family: 'SpaceGrotesk';
 }
 
 main {
@@ -393,7 +396,7 @@ span:hover + .hoverimage1{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.7;
   text-align: left;
   /* max-width:75%; */
   letter-spacing: 0.05em;
@@ -405,7 +408,7 @@ span:hover + .hoverimage1{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.7;
   letter-spacing: 0.05em;
   margin: 0;
 
