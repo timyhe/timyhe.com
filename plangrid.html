@@ -105,51 +105,56 @@
           <br><br><img class="headerimage" data-action="zoom" src="images/Screenshot 2021-05-14 105505.jpg">
           <div class="caption-container">Diagram illustrating the object-activity relationship</div><br>
           Understanding the relationship between objects and activities is critical to selecting the ideal option for setting up a project’s objects and activities. Below were the three options created and details regarding their strengths and weaknesses:
-          <br><br><div>
-            <h2 class="prosandcons">Option 1</h2>
-            <img class="headerimage" data-action="zoom" src="images/option1.png">
-            <div class="about prosandcons"><br><b>Strengths</b><br><ul>
-              <li>Familiar/modern layout (Kanban style)</li>
-              <li>Clear display of all objects and activities</li>
-              <li>Quick and easy to add/change activities and objects in-line</li>
-            </ul>
-            <b>Weaknesses</b><br><ul>
-              <li>Kanban mental model does not apply to objects and activities</li>
-              <li>Takes up a lot of screen space, low information density</li>
-            </ul></div>
-          </div><br>
-            <div>
-              <h2 class="prosandcons">Option 2</h2>
-              <img class="headerimage" data-action="zoom" src="images/option2.png">
-              <div class="about prosandcons"><br><b>Strengths</b><br><ul>
-                <li>Very clear visual separation of separate objects</li>
-                <li>Intuitive navigation pattern, similar to iPadOS settings</li>
-              </ul>
-              <b>Weaknesses</b><br><ul>
-                <li>New component within the app (not in the design system)</li>
-                <li>Takes up a lot of screen space, low information density</li>
-              </ul></div>
-            </div><br><div>
-            <h2 class="prosandcons">Option 3 (chosen)</h2>
-            <img class="headerimage" data-action="zoom" src="images/option3.png">
-            <div class="about prosandcons"><br>We chose Option 3 as it best aligned with our development timeframe for a minimum viable product. It was also future-proof and familiar for existing PlanGrid users.<br><br><b>Strengths</b><br><ul>
-              <li>Existing component within app (faster to build)</li>
-              <li>Aligns with existing mental models from PlanGrid</li>
-              <li>Future-proof by providing empty space for upcoming content</li>
-            </ul>
-            <b>Weaknesses</b><br><ul>
-              <li>Currently visually sparse (see last pro above)</li>
-              <li>Less clear distinction between activities and objects</li>
-            </ul></div>
-        </div>
       </div>
+    </div>
+    <div class="work-box">
+      <div class="text-left"><h2 class="prosandcons">Option 1</h2>
+      <img class="headerimage" data-action="zoom" src="images/option1.png"></div>
+      <div class="text-right"><div class="about prosandcons"><br><b>Strengths</b><br><ul>
+        <li>Familiar/modern layout (Kanban style)</li>
+        <li>Clear display of all objects and activities</li>
+        <li>Efficient to add/change activities and objects in-line</li>
+      </ul>
+      <b>Weaknesses</b><br><ul>
+        <li>The Kanban mental model does not inherently have a one-to-one correspondence with objects and activities</li>
+        <li>Takes up a lot of screen space, low information density</li>
+      </ul></div>
+    </div>
+    </div>
+    <div class="work-box">
+      <div class="text-left"><h2 class="prosandcons">Option 2</h2>
+      <img class="headerimage" data-action="zoom" src="images/option2.png"></div>
+      <div class="text-right"><div class="about prosandcons"><br><b>Strengths</b><br><ul>
+        <li>Very clear visual separation of separate objects</li>
+        <li>Intuitive navigation pattern, similar to iPadOS settings</li>
+      </ul>
+      <b>Weaknesses</b><br><ul>
+        <li>New component within the app (not in the design system)</li>
+        <li>Takes up a lot of screen space, low information density</li>
+      </ul></div>
+    </div>
+    </div>
+    <div class="work-box">
+      <div class="text-left"><h2 class="prosandcons">Option 3</h2>
+      <img class="headerimage" data-action="zoom" src="images/option3.png"></div>
+      <div class="text-right"><div class="about prosandcons"><br>We chose Option 3 as it best aligned with our development timeframe for a minimum viable product. It was also future-proof and familiar for existing PlanGrid users.<br><br><b>Strengths</b><br><ul>
+        <li>Existing component within app (faster to build)</li>
+        <li>Aligns with existing mental models from PlanGrid</li>
+        <li>Future-proof by providing empty space for upcoming content</li>
+      </ul>
+      <b>Weaknesses</b><br><ul>
+        <li>Currently visually sparse (see last pro above)</li>
+        <li>Less clear distinction between activities and objects</li>
+      </ul>
+    </div>
+    </div>
     </div>
     <br><div class="work-box">
       <div class="text-left"><h2>Testing with customers</h2></div>
       <div class="about text-right">
         After establishing the layout, the process of creating and editing objects and activities needed to be designed. 
-        To do this, I drew inspiration from two separate pieces of software, resulting in two more options with distinct approaches to user experience. One approach (shown on left) was based upon existing PlanGrid creation patterns, including many modals and side drawers for editing. 
-        The other approach followed design patterns (such as in-line editing and autosave) found in modern productivity apps like Todoist and Asana (shown on right).
+        To do this, I drew inspiration from two separate pieces of software, resulting in two more options with distinct approaches to user experience. One approach (left) was based upon existing PlanGrid creation patterns, including many modals and side drawers for editing. 
+        The other approach followed design patterns (such as in-line editing and autosave) found in modern productivity apps like Todoist and Asana (right).
       </div>
     </div>
   </div><br>
@@ -163,8 +168,7 @@
         <div class="caption-container about">In-Line Edit Approach (similar to Asana)</div>
       </div>
     </div>
-    <br><div class="work-box">
-      <div class="text-left"><h2></h2></div>
+    <br><div>
       <div class="about text-right">
         I worked with the user researcher on my team to conduct 5 usability tests on these two different approaches. Through conducting the five user tests, we found that our customers enjoyed the new efficiency and ease of use provided by the modern approach, while others felt “safer” and more familiar with the current PlanGrid patterns. 
         In addition, said user testing qualitatively validated the practicality of our solution, as some customers deemed it a “game changer” for their construction teams. As such, our final solution incorporated elements of both approaches, combining the use of in-line editing with the familiar side-drawer. Using these mock-ups, I worked with our front-end engineers to build out and implement the designs.
