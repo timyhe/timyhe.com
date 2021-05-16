@@ -290,10 +290,12 @@ footer{
    width:100%;
 }
 
-h1{
+h1 {
   font-size: 3em;
-  text-align:left;
+  text-align: left;
   line-height: 150%;
+
+  font-family: 'Mackinac';
 }
 
 h1:hover{
