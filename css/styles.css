@@ -540,6 +540,29 @@ span:hover + .hoverimage1{
     max-height: 90%;
     /* margin-left: 5%; */
     width: 100%;
+    /* border-radius: 5px; */
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+ol li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 28px;
+  margin-right: 1rem;
+  font-family: 'Space Mono';
+  line-height: 1;
 }
 
 iframe{
