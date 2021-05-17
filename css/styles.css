@@ -63,7 +63,6 @@ ul {
 
 .content-wrapper {
     margin: 0 20% 0 20%;
-    max-width: 1200px;
     margin-bottom: 120px;
 }
 
@@ -81,21 +80,21 @@ ul {
 .two-images {
   display:flex;
   flex-wrap:nowrap;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 }
 
 .two-images img {
-  max-width: 95%;
+  max-width: 98%;
 }
 
 .text-left {
-    padding: 20px 80px 20px 0px;
+    padding: 20px 20px 20px 0px;
     box-sizing: border-box;
     flex-basis: 35%;
 }
 
 .text-right {
-  padding: 20px 0px 0px 20px;
+  padding: 20px 0px 0px 60px;
   box-sizing: border-box;
   flex-basis: 65%;
 }
@@ -105,16 +104,15 @@ ul {
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 60%;
-  margin: auto;
-  max-width: 1800px;
+  padding-left: 20%;
+  padding-right: 20%;
   
   /* Then we define how is distributed the remaining space */
   justify-content: space-evenly;
 }
 
 .content-wrapperaboutmob {
-  padding-top: 10%;
+  padding-top: 5%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -125,9 +123,9 @@ ul {
 
 body {
   font-family: 'Mackinac';
-  margin: 0 auto;
+  margin: 0;
   padding: 1px;
-  height: 100%;
+  min-height: 100%;
   
   letter-spacing: 0.05em;
 
@@ -190,10 +188,10 @@ a {
 }
 
 .headomobile{
-  font-size: 24px !important;
+  font-size: 20px;
   line-height: 1.7;
-  margin-bottom: 5px;
-  margin-top: 0px;
+  /* margin-bottom: 5px;
+  margin-top: 0px; */
 
   font-family: 'SpaceGrotesk';
 }
@@ -201,7 +199,7 @@ a {
 main {
   /* box-sizing: border-box;
   min-height: 90%; */
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* p {
@@ -242,7 +240,7 @@ a:active { text-decoration: none; color: #FFFFFF77}
 .rectangle {
     position: relative;
     max-width: 35%;
-    height: 15%;
+    height: 20%;
 }
 
 .rectangle img{
@@ -305,8 +303,8 @@ h1:hover{
 .header-text {
   display: inline-block;
   /* margin-left: 19%; */
-  /* width: 85%; */
-  top: 30%;
+  width: 85%;
+  top: 25%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -314,7 +312,7 @@ h1:hover{
 .header-textabout {
   line-height: 75px !important;
   display: inline-block;
-  top: 15%;
+  top: 20%;
 }
 
 .hoverimage{
@@ -369,10 +367,10 @@ span:hover + .hoverimage1{
 }
 
 .navbar {
-  position: fixed;
-  margin-left: 20%;
+  position: -webkit-sticky;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-top: 3%;
-  width: 60%;
   z-index: 1;
 }
 
@@ -559,10 +557,11 @@ iframe{
 }
 
 .top-case{
-  margin-top: 15em;
+  margin-top: 10em;
   margin-bottom: 2em;
-  margin-left: 20%;
+  /* padding-left: 10%; */
   max-width: 650px;
+  float: left;
 }
 
 .column:hover .hover{
