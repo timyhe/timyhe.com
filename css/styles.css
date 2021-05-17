@@ -68,7 +68,7 @@ ul {
 }
 
 .work-box {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   display: flex;
   justify-content: flex-start;
 }
@@ -85,7 +85,7 @@ ul {
 }
 
 .two-images img {
-  max-width: 460px;
+  max-width: 95%;
 }
 
 .text-left {

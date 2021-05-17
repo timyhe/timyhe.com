@@ -53,7 +53,7 @@
                   keep crews accountable.
                   <br><br><img class="headerimage" data-action="zoom" src="images/problemstatement.png">
                </div>
-            </div>
+            </div><br><br><br><br>
             <div class="work-box">
                <div class="text-left">
                   <h2>Understanding existing workflows</h2>
@@ -62,14 +62,20 @@
                   I joined the team near the tail-end end of the initial research and discovery phase. Through said research, the team found that many of these current methods rely on gut 
                   estimates while on the construction site, usually performed by the foreman, then reported to the project manager. This method relies heavily on personal experience, and is generally low accuracy. 
                   As mentioned above, low accuracy methods result in skewed views of total progress, thus leading to lost money and wasted work. On the other end of the spectrum, we found methods of progress tracking that were very detailed and high accuracy. However, all of these methods required significant amounts of set-up and configuration by project managers, and were not mobile-friendly for field use. 
-                  The latter point leads to low adoption by most companies (in terms of these higher accuracy methods). 
-                  <br><br><img class="headerimage" data-action="zoom" src="images/researchimages.png">
-                  <div class="caption-container">Existing methods of tracking progress</div>
-                  <br>
+                  The latter point leads to low adoption by most companies (in terms of these higher accuracy methods).
+               </div>
+            </div><br><br>
+            <img class="headerimage" data-action="zoom" src="images/researchimages.png">
+                  <div class="caption-container">Existing methods of tracking progress</div><br>
+            <div class="work-box">
+               <div class="text-left">
+                  <h2></h2>
+               </div>
+               <div class="about text-right">
                   Interestingly enough, in the middle of the spectrum, there were methods in which companies would leverage pre-existing markup tools in PlanGrid to annotate sheets with visual representations of objects to track progress on. Updating the progress on these “objects” on the field would be as easy as changing their colors. 
                   Unfortunately, this method doesn’t translate well to high accuracy data (which would then be used to calculate productivity rates and make appropriate adjustments). Despite that, seeing users employ this workflow presented great inspiration and an exciting opportunity for us.
                </div>
-            </div>
+            </div><br><br><br><br>
             <div class="work-box">
                <div class="text-left">
                   <h2>Defining requirements</h2>
@@ -83,34 +89,39 @@
                         <li>Generate detailed and high accuracy data, which could be leveraged to calculate productivity rates and provide a single source of truth for each construction project.</li>
                      </ol>
                   </div>
-                  <br><img class="headerimage" data-action="zoom" src="images/Screenshot 2021-05-14 103716.jpg">
-                  <div class="caption-container">Established product vision; this case study focuses on the configuration</div>
                   <br>
                </div>
             </div>
+            <img class="headerimage" data-action="zoom" src="images/Screenshot 2021-05-14 103716.jpg">
+                  <div class="caption-container">Established product vision; this case study focuses on the configuration</div><br><br><br><br>
             <div class="work-box">
                <div class="text-left">
                   <h2>Sketching it out</h2>
                </div>
                <div class="about text-right">
                   After gathering the above requirements, our team began brainstorming different methods to meet them. I facilitated a two-part idea generation workshop (specifically for the “configuration” portion of the product) in which the cross-functional team (including product, design, user research, and engineering) all gathered together to sketch ideas. 
-                  This was particularly helpful as it brought together many different perspectives and pieces of knowledge I would have otherwise been unaware of.
-                  <br><br><img class="headerimage" data-action="zoom" src="images/brainstorming.png">
-                  <div class="caption-container">Facilitating a sketching session for brainstorming</div>
-                  <br>
+                  This was particularly helpful as it brought together many different perspectives and pieces of knowledge I would have otherwise been unaware of.<br><br>
                   From there, alongside my product manager, we filtered down and expanded on a couple of key ideas, selecting the ones that were the most aligned with our given problem space and limitations. We were able to solidify requirements, make key design decisions, and iterate quickly. Sketches of multiple design options on pen and paper became low fidelity wireframes.
-                  <br><br><img class="headerimage" data-action="zoom" src="images/sketch.png">
-                  <div class="caption-container">The result of the session: a lot of sketches</div>
-                  <br>
-                  At this phase, I created a user flow diagram to get a better sense of how the requirements for configuration would be perceived by the user. Through this, I was able to get a lot of early feedback, better informing later design iterations.
+                  <br><br>
                </div>
             </div>
-            <br><br>
-            <div>
-               <img class="headerimage" data-action="zoom" src="images/User flow.png">
-               <div class="about caption-container">User flow for configuration based on ideas</div>
+            <div class="two-images">
+               <div>
+                  <img class="headerimage" data-action="zoom" src="images/brainstorming.png">
+                  <div class="caption-container about">Facilitating said workshop</div>
+               </div>
+               <div>
+                  <img class="headerimage" data-action="zoom" src="images/sketch.png">
+                  <div class="caption-container about">So many ideas</div>
+               </div>
             </div>
-            <br><br>
+            <div class="work-box">
+               <div class="text-left"></div>
+               <div class="text-right about">At this phase, I created a user flow diagram to get a better sense of how the requirements for configuration would be perceived by the user. Through this, I was able to get a lot of early feedback, better informing later design iterations.</div>
+            </div><br><br>
+            <img class="headerimage" data-action="zoom" src="images/User flow.png">
+               <div class="about caption-container">User flow for configuration based on ideas</div>
+            <br><br><br><br>
             <div class="work-box">
                <div class="text-left">
                   <h2>Design Considerations</h2>
@@ -118,11 +129,15 @@
                <div class="about text-right">
                   After a few more rounds of iteration, I arrived at three main options for the first portion of configuration, setting up a construction project’s objects and activities. To be clear on explaining the three options, we must first clearly define objects and activities. At a high level, objects (such as walls) are items on the construction site to be worked on, while activities specify the particular tasks that need to be performed in order to track progress. Similar to the methods 
                   PlanGrid customers were using existing markups capabilities for, activities are assigned specific colours in order to clearly represent progress on a sheet visually.
-                  <br><br><img class="headerimage" data-action="zoom" src="images/Screenshot 2021-05-14 105505.jpg">
-                  <div class="caption-container">Diagram illustrating the object-activity relationship</div>
-                  <br>
-                  Understanding the relationship between objects and activities is critical to selecting the ideal option for setting up a project’s objects and activities. Below were the three options created and details regarding their strengths and weaknesses:
+                  <br><br>
                </div>
+            </div>
+            <img class="headerimage" data-action="zoom" src="images/Screenshot 2021-05-14 105505.jpg">
+                  <div class="caption-container">Diagram illustrating the object-activity relationship</div>
+               <br>
+            <div class="work-box">
+               <div class="text-left"></div>
+               <div class="text-right about">Understanding the relationship between objects and activities is critical to selecting the ideal option for setting up a project’s objects and activities. Below were the three options created and details regarding their strengths and weaknesses:</div>
             </div>
             <div class="work-box">
                <div class="text-left">
@@ -140,7 +155,7 @@
                      </ul>
                   </div>
                </div>
-               <div class="text-right">
+               <div class="text-right"><br>
                   <h2 class="prosandcons">Option 1</h2>
                   <img class="headerimage" data-action="zoom" src="images/option1.png">
                </div>
@@ -160,7 +175,7 @@
                      </ul>
                   </div>
                </div>
-               <div class="text-right">
+               <div class="text-right"><br>
                   <h2 class="prosandcons">Option 2</h2>
                   <img class="headerimage" data-action="zoom" src="images/option2.png">
                </div>
@@ -181,14 +196,14 @@
                      </ul>
                   </div>
                </div>
-               <div class="text-right">
+               <div class="text-right"><br>
                   <h2 class="prosandcons">Option 3</h2>
                   <img class="headerimage" data-action="zoom" src="images/option3.png">
                   <br>
                   <div class="about"><br>We chose Option 3 as it best aligned with our development timeframe for a minimum viable product. It was also future-proof and familiar for existing PlanGrid users.</div>
                </div>
             </div>
-            <br>
+            <br><br><br><br>
             <div class="work-box">
                <div class="text-left">
                   <h2>Testing with customers</h2>
@@ -201,15 +216,8 @@
             </div>
          </div>
          <br><br>
-         <div class="two-images">
-            <div>
-               <img class="headerimage" data-action="zoom" src="images/bruh.gif">
-               <div class="caption-container about">“Classic” PlanGrid Drawer Edit Approach</div>
-            </div>
-            <div>
-               <img class="headerimage" data-action="zoom" src="images/bruh2.gif">
-               <div class="caption-container about">In-Line Edit Approach (similar to Asana)</div>
-            </div>
+         <div>
+            <img class="headerimage" data-action="zoom" src="images/twoapproach.png">
          </div>
          <br>
          <div class="work-box-nocap">
@@ -218,7 +226,7 @@
                I worked with the user researcher on my team to conduct 5 usability tests on these two different approaches. Through conducting the five user tests, we found that our customers enjoyed the new efficiency and ease of use provided by the modern approach, while others felt “safer” and more familiar with the current PlanGrid patterns. 
                In addition, said user testing qualitatively validated the practicality of our solution, as some customers deemed it a “game changer” for their construction teams. As such, our final solution incorporated elements of both approaches, combining the use of in-line editing with the familiar side-drawer. Using these mock-ups, I worked with our front-end engineers to build out and implement the designs.
             </div>
-         </div>
+         </div><br><br><br><br>
          <div class="work-box">
             <div class="text-left">
                <h2>Final Designs</h2>
@@ -232,7 +240,7 @@
             <img class="headerimage" data-action="zoom" src="images/epic.gif">
             <div class="caption-container about">Implemented final designs</div>
          </div>
-         <br><br>
+         <br><br><br><br>
          <div class="work-box">
             <div class="text-left">
                <h2>Next steps and reflections</h2>
@@ -248,7 +256,7 @@
                receive feedback for.<br>
             </div>
          </div>
-         <br><br><br>
+         <br><br><br><br>
          <a class="abooot" href="literatura.html">literatura app →</a>
       </div>
       </div>
