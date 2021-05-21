@@ -134,7 +134,9 @@ body {
   min-height: 100%;
   
   letter-spacing: 0.05em;
-
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   /* transition: background-color 0.6s ease; */
 }
 
@@ -554,9 +556,9 @@ ol {
   counter-reset: my-awesome-counter;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10px;
+  /* padding-top: 10px;
   margin: 0;
-  padding: 0;
+  padding: 0; */
 }
 ol li {
   counter-increment: my-awesome-counter;
