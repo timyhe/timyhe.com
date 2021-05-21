@@ -62,7 +62,7 @@ ul {
 }
 
 .content-wrapper {
-    max-width: 1080px;
+    max-width: 900px;
     padding-left: calc(env(safe-area-inset-left) + 96px);
     padding-right: calc(env(safe-area-inset-right) + 96px);
     margin: auto;
